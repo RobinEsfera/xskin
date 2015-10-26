@@ -2,6 +2,7 @@
 <div id="xskin-currencyModal" class="reveal-modal large" data-reveal aria-labelledby="videoModalTitle" aria-hidden="true" role="dialog">
   <h5>Choose your Currency</h5>
     <ul class="world-currency">
+
       <% if @arrCurrency.any? %>
         <% @arrCurrency.each do |arrCurrency| %>
           <% if arrCurrency.name == cookies[:currency] %>
@@ -13,6 +14,28 @@
           <% end %>
         <% end %>
       <% end %>
+
+      <li><a href="javascript:void(0);">AUD (&#x41;&dollar;)</a></li>
+      <li><a href="javascript:void(0);">BRL (&#x52;&#x24;)</a></li>
+      <li><a href="javascript:void(0);">CAD (&#x24;)</a></li>
+      <li><a href="javascript:void(0);">CHF (&#x43;&#x48;&#x46;)</a></li>
+      <li><a href="javascript:void(0);">CNY (&#xa5;)</a></li>
+      <li><a href="javascript:void(0);">DKK (&#x6b;&#x72;)</a></li>
+      <li><a href="javascript:void(0);">EUR (&#x20ac;)</a></li>
+      <li><a href="javascript:void(0);">GBP (&#xa3;)</a></li>
+      <li><a href="javascript:void(0);">HKD (&#x24;)</a></li>
+      <li><a href="javascript:void(0);">JPY (&#xa5;)</a></li>
+      <li><a href="javascript:void(0);">KRW (&#x20a9;)</a></li>
+      <li><a href="javascript:void(0);">MXN (&#x24;)</a></li>
+      <li><a href="javascript:void(0);">NOK (&#x6b;&#x72;)</a></li>
+      <li><a href="javascript:void(0);">NZD (&#x24;)</a></li>
+      <li><a href="javascript:void(0);">RUB (&#x440;&#x443;&#x431;)</a></li>
+      <li><a href="javascript:void(0);">SAR (﷼)</a></li>
+      <li><a href="javascript:void(0);">SEK (&#x6b;&#x72;)</a></li>
+      <li><a href="javascript:void(0);">SGD (&#x53;&#x24;)</a></li>
+      <li><a href="javascript:void(0);">TWD (&#x4e;&#x54;&#x24;)</a></li>
+      <li><a href="javascript:void(0);">USD (&#x24;)</a></li>
+
     </ul>
     <div class="clearfix"></div>
     <div class="confirm">
