@@ -50,4 +50,14 @@ $("#shipping-address").click(function(){
 
 });
 
+//Search
+
+$(".search_content").click(function(){
+  // var element = $(this);
+  $(".xskin-mobile-search").toggle();
+});
+$(".close-search").click(function(){
+  // var element = $(this);
+  $(".xskin-mobile-search").hide();
+});
 });
