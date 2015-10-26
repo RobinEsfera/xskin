@@ -310,16 +310,22 @@ ul.xskin-menu li:hover ul.sub-menu{
 	padding: 0 15px;
 	position: relative;
 	width: 100%;
+	clear: both;
+	display: none;
+}
+.enter-keywords input:focus{
+       background: none;
 }
 .xskin-mobile-search .mobile-search, .xskin-mobile-search .mobile-search input{
 	top: 0px;
 	margin: 0;
 }
 .enter-keywords {
-  width: 81%;
+  float: left;
+  width: 100%;
 }
 .enter-keywords input{
-	background: #edecec;
+	background: white;
 	border-radius: 20px;
 	border: 0 none;
 	box-shadow: none;
@@ -327,14 +333,26 @@ ul.xskin-menu li:hover ul.sub-menu{
 	font-size: 17px;
 	color: #666;
 }
-	.xskin-mobile-search .mobile-search {
-	  background-color: #edecec;
-	  border-radius: 20px;
-	  height: 40px;
-	  line-height: 40px;
-	  text-align: center;
-	  width: 55px;
-	}
+.xskin-mobile-search .mobile-search {
+  border-radius: 20px;
+  height: 40px;
+  left: 0;
+  line-height: 40px;
+  position: absolute;
+  text-align: center;
+  top: 0;
+  width: 30px;
+}
+.xskin-cross-search-item{
+	position: absolute;
+	right: 0;
+	top: 5px;
+	color: #666;
+	font-size: 22px;
+}
+.xskin-cross-search-item img{
+	max-width: 20px;
+}
 
 /** xskin content section **/
 .xskin-content-section{

@@ -40,14 +40,7 @@
             <!-- Xskin-logo close from here -->
 
             <!-- Search area for only mobile -->
-            <div class="show-for-small-only xskin-mobile-search">
-                <div class="enter-keywords" style="display: none;">
-                <input type="text" placeholder="Search Here |" />
-                </div>
-                <div class="press-enter mobile-search" style="display: none;">
-                  <input type="submit" value="Send" />
-                </div>
-              </div>
+           
           <div class="large-8 medium-8 columns hide-for-small-only">
             <ul class="xskin-menu">
               <li><%= link_to"MAKE YOUR CASE",make_path,:class => active_class?(make_path) %></li>
@@ -117,7 +110,7 @@
               </li>
               <li><%= link_to"iPHONE6",iphone6_path,:class => active_class?(iphone6_path) %></li>
               <li><%= link_to"APPLE WATCH",apple_watch_path,:class => active_class?(apple_watch_path) %></li>
-              <li class="xskin-search"><input type="submit" value="Send" /></li>
+              <li class="xskin-search"><input type="submit" class="search_content" value="Send" /></li>
                 </ul>
                 </div>
                 <!-- Xskin menu for destop close from here -->
@@ -142,6 +135,21 @@
                             <li><a href="#">APPLE WATCH</a></li>
                           </ul>
                         </aside>
+
+                        <!-- Search area for only mobile -->
+                      <div class="xskin-mobile-search">
+                          <div class="enter-keywords">
+                          <input type="text" placeholder="Search Here" autofill="true" />
+                          </div>
+                          <div class="press-enter mobile-search">
+                            <input type="submit" value="Send" />
+                          </div>
+                          <div class="xskin-cross-search-item">
+                            <%= image_tag("close.png", class: "close-search") %>
+                             </div>
+                        </div>
+                        <!-- Search area for only mobile close from here -->
+
                         </div>
                       <!-- row close from here -->
                         </header>
