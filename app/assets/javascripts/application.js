@@ -53,4 +53,8 @@ $(function() {
   $('.da-thumbs .spotting-hover').hoverdir();
 });
 
+<<<<<<< HEAD
 });
+=======
+});
+>>>>>>> fcffc939214d72862a21426f221e27e5105763cc
