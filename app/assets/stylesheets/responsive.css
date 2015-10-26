@@ -1,0 +1,335 @@
+@media (max-width: 1024px){
+	.masking{
+		opacity: 1;
+		background-color: rgba(0, 0, 0, 0.02);
+	}
+}
+@media (max-width: 1000px){
+	h1{
+		font-size: 50px;
+	}
+	h2{
+		font-size: 37px;
+	}
+	h3{
+		font-size: 28px;
+	}
+	h4{
+		font-size: 23px;
+	}
+	.button{
+		max-width: 95px;
+		font-size: 15px;
+	}
+	.xskin-slider .button{
+		max-width: 135px;
+		font-size: 16px;
+	}
+	.row{
+		max-width: 100%; 
+	}
+	.xskin-logo img{
+		margin: 0;
+		max-width: 100px;
+	}
+	ul.xskin-menu li a{
+		font-size: 18px;
+		padding: 7px 0px; 
+	}
+	ul.xskin-menu li:first-child a{
+		min-width: 130px;
+	}
+	ul.xskin-menu li:nth-of-type(2) a{
+		min-width: 50px;
+	}
+	ul.xskin-menu li:nth-of-type(3) a{
+		min-width: 70px;
+	}
+	ul.xskin-menu li:nth-of-type(4) a{
+		min-width: 107px;
+	}
+	.xskin-login, .xskin-content-section{
+		padding: 0 15px;
+	}
+	ul.xskin-menu li{
+		margin: 0 2px;
+	}
+	ul.xskin-menu li.xskin-search input{
+		width: 17px;
+		margin-top: 12px;
+		background-size: 17px;
+	}
+	.xskin-top-design h5{
+		font-size: 20px;
+	}
+	.xskin-content-section{
+		margin: 15px 0 25px;
+	}
+	.cart, .cart.your-cart{
+		height: 35px;
+		line-height: 31px;
+		width: 35px;
+	}
+	.add-to-cart img{
+		max-width: 19px;
+	}
+	footer{
+		padding: 35px 15px;
+	}
+	.xskin-footer-links li a{
+		font-size: 15px;
+	}
+	.social-icon ul{
+		display: inline-block;
+		text-align: center;
+		width: 100%;
+	}
+	.social-icon ul li{
+		float: none;
+		display: inline-block;
+		margin: 0 5px 7px;
+	}
+	.newsletter form label{
+		font-size: 19px;
+	}
+	.submit{
+		margin-top: 28px;
+	}
+	.submit input{
+		font-size: 15px;
+	}
+
+	/** internal pages **/
+	.login-signup-to-xskin{
+		margin-top: 19%;
+	}
+	.login-signup-to-xskin h1{
+		font-size: 45px;
+	}
+	.xskin-login-section{
+		padding: 20px 15px;
+	}
+	.xskin-login-with-facebook, .xskin-login-with-instagram{
+		height: 55px;
+		line-height: 55px;
+		margin: 0;
+		width: 49%;
+	}
+	.xskin-login-with-instagram{
+		margin-right: 0;
+		float: right;
+	}
+	.xskin-login-with-facebook span.login-icon, .xskin-login-with-instagram span.login-icon{
+		font-size: 30px;
+		width: 60px;
+	}
+	.xskin-login-with-facebook span.log-in, .xskin-login-with-instagram span.log-in{
+		font-size: 30px;
+	}
+	.xskin-login-form input, .xskin-login-form .button{
+		height: 50px;
+		font-size: 25px;
+	}
+	.xskin-login-form a.forget-pass{
+		font-size: 22px;
+	}
+	.xskin-login-form .button{
+		line-height: 50px;
+		font-size: 20px;
+	}
+}
+@media (max-width: 640px){
+	.xskin-login{
+		text-align: center !important;
+		margin-bottom: 5px;
+	}
+	ul.xskin-login-language li{
+		border-right: 1px solid #fff;
+		margin: 0;
+	}
+	ul.xskin-login-language li a{
+		padding: 0 3px;
+	}
+	ul.xskin-login-language li.login a{
+		border-left: 0 none;
+	}
+	ul.xskin-login-language li.last, ul.xskin-login-language li.last a{
+		border-right: 0 none
+	}
+	.xskin-menu-with-logo{
+		border-color: #999898;
+	}
+	.xskin-logo{
+		margin: 15px 0 0;
+		text-align: center;
+	}
+	.xskin-logo img{
+		max-width: 110px;
+	}
+	.enter-keywords, .xskin-mobile-search .mobile-search{
+		margin-top: 15px;
+	}
+	.tab-bar {
+	  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+	  left: 0;
+	  position: absolute;
+	  top: 9px;
+	  width: 40px;
+	}
+	.left-small{
+		border:0 none;
+	}
+	ul.off-canvas-list li a:hover {
+	  background: #de127a none repeat scroll 0 0;
+	  color: #fff;
+	}
+	.tab-bar .menu-icon span::after {
+	  box-shadow: none;
+	  content: url("../images/toogle-bar.png");
+	  width: 40px;
+	}
+	.tab-bar .menu-icon span:hover::after{
+		box-shadow: none;
+	}
+	.tab-bar-section{
+		display: none;
+	}
+	.tab-bar .menu-icon{
+		text-indent: 0;
+	}
+	.mobile-search{
+		position: absolute;
+		right: 15px;
+		top: 5px;
+	}
+	.mobile-search input{
+		background-size: 22px;
+		height: 22px;
+		width: 22px; 
+	}
+	.make-your-own-skin{
+		vertical-align: top;
+	}
+	.xskin-slider{
+		height: 300px;
+	}
+	.xskin-slider .slide-cap{
+		border-top: 0 none;
+	}
+	.xskin-content-section{
+		display: none;
+	}
+	.iphone-6, .iphone-6:last-child{
+		margin: 0 0 10px;
+	}
+	.xskin-top-design .slide-cap{
+		padding: 30px 0;
+	}
+	.xskin-login, .xskin-content-section{
+		padding: 0;
+	}
+	.xskin-top-design .make-your-own-skin{
+		vertical-align: middle;
+	}
+	.xskin-top-design .button{
+		margin: 15px 0 0;
+	}
+	.iphone-6.mobile-view{
+		width: 50%;
+		float: left;
+	}
+	.play-store a {
+	  margin: 0;
+	  padding: 0 10px;
+	  width: 50%;
+	  text-align: center;
+	}
+	.social-icon{
+		text-align: center;
+	}
+	.social-icon ul{
+		width: 180px;
+	}
+	.social-icon ul li{
+		margin-bottom: 15px;
+	}
+	.newsletter form{
+		display: inline-block;
+		width: 100%;
+		text-align: center;
+	}
+	.newsletter form label{
+		text-align: left;
+	}
+	.newsletter{
+		margin: 20px 0;
+	}
+	.newsletter form .field, .submit{
+		width: 72%;
+		float: none;
+		display: inline-block;
+		vertical-align: top;
+	}
+	.submit{
+		width: 72px;
+	}
+	.login-signup-to-xskin h1{
+		font-size: 30px;
+	}
+	.xskin-login-section{
+		padding: 15px 15px;
+	}
+	.login-signup-to-xskin{
+		padding: 0 15px;
+	}
+	.xskin-login-form{
+		margin-top: 15px;
+	}
+	.xskin-login-with-facebook a, .xskin-login-with-instagram a{
+		width: 100%;
+		display: inline-block;
+	}
+	.xskin-login-with-facebook, .xskin-login-with-instagram{
+		width: 100%;
+		margin: 0 0 15px;
+		display: inline-block;
+		text-align: center;
+	}
+	.xskin-login-with-facebook span.login-icon, .xskin-login-with-instagram span.login-icon, .xskin-login-with-facebook span.log-in, .xskin-login-with-instagram span.log-in{
+		display: inline-block;
+		width: auto;
+		padding: 0 7px;
+	}
+	.xskin-login-top-section, .sign-in-forget-pass{
+		padding: 0;
+	}
+	.xskin-login-form input, .xskin-login-form .button {
+	  font-size: 17px;
+	  height: 40px;
+	  padding: 0 15px;
+	}
+	.xskin-login-form a.forget-pass{
+		font-size: 20px;
+	}
+	.xskin-login-form .button{
+		line-height: 40px;
+	}
+	.sign-in-forget-pass{
+		margin: 0 0 20px;
+	}
+	.xskin-login-form form .medium-6{
+		width: 100%;
+		text-align: left !important;
+	}
+	.back-or-sign-up{
+		font-size: 20px;
+		margin: 0 0 5px;
+		display: inline-block;
+	}
+}
+@media (max-width: 360px){
+	.iphone-6.mobile-view{
+		width: 100%;
+		float: none;
+	}
+}
