@@ -58639,3 +58639,824 @@ Started GET "/assets/vimeo-65f1186e62b58b791a5e7fd4d430b518ac123f802faaaaaba4a9a
 
 
 Started GET "/assets/favicon-7bfd1ce12d3c10e9284a016379e59b063ad8bbf2b7041486e6c5b269dc86ffc9.png" for 127.0.0.1 at 2015-10-26 15:57:24 +0530
+
+
+Started GET "/demo" for 127.0.0.1 at 2015-10-26 16:45:09 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by PageController#demo as HTML
+  Rendered page/demo.html.erb within layouts/application (346.8ms)
+  Rendered layouts/_currency.html.erb (0.9ms)
+  Rendered layouts/_header.html.erb (27.3ms)
+  Rendered layouts/_messages.html.erb (0.4ms)
+  Rendered layouts/_footer.html.erb (34.5ms)
+Completed 200 OK in 1129ms (Views: 1083.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo" for 127.0.0.1 at 2015-10-26 16:45:10 +0530
+Processing by PageController#demo as HTML
+  Rendered page/demo.html.erb within layouts/application (63.3ms)
+  Rendered layouts/_currency.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (5.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (17.5ms)
+Completed 200 OK in 391ms (Views: 390.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo" for 127.0.0.1 at 2015-10-26 16:45:11 +0530
+Processing by PageController#demo as HTML
+  Rendered page/demo.html.erb within layouts/application (73.6ms)
+  Rendered layouts/_currency.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (4.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (20.1ms)
+Completed 200 OK in 403ms (Views: 402.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-3711dad253684e98d44c9b4e34e6975491994fed623b8b4118bee2c514bc1354.css?body=1" for 127.0.0.1 at 2015-10-26 16:45:11 +0530
+
+
+Started GET "/assets/page.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-10-26 16:45:11 +0530
+
+
+Started GET "/assets/responsive.self-f031ae3b959e86e11686f9593121f23a3f24ea3ce4135e14d364892e3941ac37.css?body=1" for 127.0.0.1 at 2015-10-26 16:45:11 +0530
+
+
+Started GET "/assets/style.self-50a9adfada1aa67f7361fb02f2d0796846a181d106890a04314565eb4fd22323.css?body=1" for 127.0.0.1 at 2015-10-26 16:45:11 +0530
+
+
+Started GET "/assets/shipping.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-10-26 16:45:11 +0530
+
+
+Started GET "/assets/application.self-f78feb67e8049abf326e5f19e9ab2ba7f61b9f1fb25454cd35f52b7a3ef8936a.css?body=1" for 127.0.0.1 at 2015-10-26 16:45:11 +0530
+
+
+Started GET "/assets/font-awesome.self-be09f9a5a5e8fd15a4e4d68dc8509252a33dc056003e53159586cf99368ba0e7.css?body=1" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/slick.self-bda8f9d95b879cc07b5d65bae0da7172c12fb2f443241a1957690e3b0568b2fc.css?body=1" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/slick-theme.self-3968490230827f6d907915bcf120df3018396a13b8271b6005fead14866e7d3b.css?body=1" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/application.self-f2147971aac09489ccd4907d23a89dcd05dfc482e4a70feff9d7b9cfd99e79cb.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/slick.self-6e16c0ddbfaf61f8e2427ff9caf16b7c1aba8e8232fdc216d3d966496573317e.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/jquery-hover-effect.self-00776f79d3af2ad47874a804dea0bb77141dcdb0781e362a36b3f49d6db2f18b.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2?v=4.4.0" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/body_bg.png" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/search.png" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/Xskin-logo-a9941772dbaa1e1e2e724ae01a4130693e67a29991a248aea3c6a93acb6ec65d.png" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/app-store-daf913a9de3e2d513fd1868e57ae4dfe0a7c473ceb0487f508fe8a20ee847794.png" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/google-play-store-acedb8b131ac38b5eafef90763528382a389499201fcebcaf1bdf1994e2fcb85.png" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/vimeo-65f1186e62b58b791a5e7fd4d430b518ac123f802faaaaaba4a9a3ddffb282b2.png" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/iPhone6-back-0bb3af0d5861500bb4061c7a3c51c556918bd4cad40ab436c7a3edce0295cc82.jpg" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/zoom-f10e953e5a8e958d01130b29f41008a06dcfbb3dddac73ef608d6ad45ea431f8.png" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/iphone-background-b75b4116c048e06854d37e80acc1c6cc6c21b46c74752d5a16e8aa8c495d0691.jpg" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/add-to-cart-2e61c2a1c1a143ff5cd9aca6d8b4986d57648fb7b448d9ba51e2ab59c2caea63.png" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/mans-using-iphone-8c988088b8882bc0a4e0c0b3088d3d982564d85625491e5448a06e11e7ee1180.jpg" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/iPhone6-front-a68d6e28a21be4cbb4c59acc4866a13dea9ea0e8efc0cc9106755cfd31b1ef91.jpg" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/iphone-background-2-e2c735dcb3d14c3926cd216dd594c725083e4833e26c0875c1e52a989ed0ea82.jpg" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/girl-using-iphone-32efb70d5b555377b3b1dbc5c1c77fe2146a29aacbdec9e9bbb0eb096d316c0a.jpg" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/iphone-background-3-8e824a3f1bd0c6f059fa6bd0b2593c0af761d77bfbb69169e3c4d642fb1f19ec.jpg" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/iphone-background-1-0573cb4280755dbfc86812d0ebaf9c96585113400dd6d40818f578fbac516c35.jpg" for 127.0.0.1 at 2015-10-26 16:45:12 +0530
+
+
+Started GET "/assets/favicon-7bfd1ce12d3c10e9284a016379e59b063ad8bbf2b7041486e6c5b269dc86ffc9.png" for 127.0.0.1 at 2015-10-26 16:45:13 +0530
+
+
+Started GET "/demo" for 127.0.0.1 at 2015-10-26 16:45:18 +0530
+Processing by PageController#demo as HTML
+  Rendered page/demo.html.erb within layouts/application (76.9ms)
+  Rendered layouts/_currency.html.erb (0.5ms)
+  Rendered layouts/_header.html.erb (7.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (17.6ms)
+Completed 200 OK in 543ms (Views: 541.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo" for 127.0.0.1 at 2015-10-26 16:45:34 +0530
+Processing by PageController#demo as HTML
+  Rendered page/demo.html.erb within layouts/application (61.2ms)
+  Rendered layouts/_currency.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (4.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (17.3ms)
+Completed 200 OK in 394ms (Views: 393.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo" for 127.0.0.1 at 2015-10-26 16:45:34 +0530
+Processing by PageController#demo as HTML
+  Rendered page/demo.html.erb within layouts/application (64.0ms)
+  Rendered layouts/_currency.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (5.0ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (24.3ms)
+Completed 200 OK in 416ms (Views: 415.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo" for 127.0.0.1 at 2015-10-26 16:45:35 +0530
+Processing by PageController#demo as HTML
+  Rendered page/demo.html.erb within layouts/application (66.0ms)
+  Rendered layouts/_currency.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (11.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (16.6ms)
+Completed 200 OK in 404ms (Views: 402.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo" for 127.0.0.1 at 2015-10-26 16:45:35 +0530
+Processing by PageController#demo as HTML
+  Rendered page/demo.html.erb within layouts/application (65.2ms)
+  Rendered layouts/_currency.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (4.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (20.7ms)
+Completed 200 OK in 438ms (Views: 437.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/demo" for 127.0.0.1 at 2015-10-26 16:45:35 +0530
+Processing by PageController#demo as HTML
+  Rendered page/demo.html.erb within layouts/application (73.7ms)
+  Rendered layouts/_currency.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (4.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (22.7ms)
+Completed 200 OK in 412ms (Views: 410.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-3711dad253684e98d44c9b4e34e6975491994fed623b8b4118bee2c514bc1354.css?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/page.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/responsive.self-f031ae3b959e86e11686f9593121f23a3f24ea3ce4135e14d364892e3941ac37.css?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/style.self-50a9adfada1aa67f7361fb02f2d0796846a181d106890a04314565eb4fd22323.css?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/shipping.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/application.self-f78feb67e8049abf326e5f19e9ab2ba7f61b9f1fb25454cd35f52b7a3ef8936a.css?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/font-awesome.self-be09f9a5a5e8fd15a4e4d68dc8509252a33dc056003e53159586cf99368ba0e7.css?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/slick.self-bda8f9d95b879cc07b5d65bae0da7172c12fb2f443241a1957690e3b0568b2fc.css?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/slick-theme.self-3968490230827f6d907915bcf120df3018396a13b8271b6005fead14866e7d3b.css?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/slick.self-6e16c0ddbfaf61f8e2427ff9caf16b7c1aba8e8232fdc216d3d966496573317e.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/jquery-hover-effect.self-00776f79d3af2ad47874a804dea0bb77141dcdb0781e362a36b3f49d6db2f18b.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:36 +0530
+
+
+Started GET "/assets/page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:37 +0530
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:37 +0530
+
+
+Started GET "/assets/application.self-f2147971aac09489ccd4907d23a89dcd05dfc482e4a70feff9d7b9cfd99e79cb.js?body=1" for 127.0.0.1 at 2015-10-26 16:45:37 +0530
+
+
+Started GET "/assets/Xskin-logo-a9941772dbaa1e1e2e724ae01a4130693e67a29991a248aea3c6a93acb6ec65d.png" for 127.0.0.1 at 2015-10-26 16:45:37 +0530
+
+
+Started GET "/assets/zoom-f10e953e5a8e958d01130b29f41008a06dcfbb3dddac73ef608d6ad45ea431f8.png" for 127.0.0.1 at 2015-10-26 16:45:37 +0530
+
+
+Started GET "/assets/iPhone6-front-a68d6e28a21be4cbb4c59acc4866a13dea9ea0e8efc0cc9106755cfd31b1ef91.jpg" for 127.0.0.1 at 2015-10-26 16:45:37 +0530
+
+
+Started GET "/assets/add-to-cart-2e61c2a1c1a143ff5cd9aca6d8b4986d57648fb7b448d9ba51e2ab59c2caea63.png" for 127.0.0.1 at 2015-10-26 16:45:37 +0530
+
+
+Started GET "/assets/iPhone6-back-0bb3af0d5861500bb4061c7a3c51c556918bd4cad40ab436c7a3edce0295cc82.jpg" for 127.0.0.1 at 2015-10-26 16:45:37 +0530
+
+
+Started GET "/assets/iphone-background-b75b4116c048e06854d37e80acc1c6cc6c21b46c74752d5a16e8aa8c495d0691.jpg" for 127.0.0.1 at 2015-10-26 16:45:37 +0530
+
+
+Started GET "/assets/girl-using-iphone-32efb70d5b555377b3b1dbc5c1c77fe2146a29aacbdec9e9bbb0eb096d316c0a.jpg" for 127.0.0.1 at 2015-10-26 16:45:37 +0530
+
+
+Started GET "/assets/mans-using-iphone-8c988088b8882bc0a4e0c0b3088d3d982564d85625491e5448a06e11e7ee1180.jpg" for 127.0.0.1 at 2015-10-26 16:45:37 +0530
+
+
+Started GET "/assets/app-store-daf913a9de3e2d513fd1868e57ae4dfe0a7c473ceb0487f508fe8a20ee847794.png" for 127.0.0.1 at 2015-10-26 16:45:37 +0530
+
+
+Started GET "/assets/google-play-store-acedb8b131ac38b5eafef90763528382a389499201fcebcaf1bdf1994e2fcb85.png" for 127.0.0.1 at 2015-10-26 16:45:37 +0530
+
+
+Started GET "/assets/vimeo-65f1186e62b58b791a5e7fd4d430b518ac123f802faaaaaba4a9a3ddffb282b2.png" for 127.0.0.1 at 2015-10-26 16:45:37 +0530
+
+
+Started GET "/assets/iphone-background-3-8e824a3f1bd0c6f059fa6bd0b2593c0af761d77bfbb69169e3c4d642fb1f19ec.jpg" for 127.0.0.1 at 2015-10-26 16:45:37 +0530
+
+
+Started GET "/assets/iphone-background-1-0573cb4280755dbfc86812d0ebaf9c96585113400dd6d40818f578fbac516c35.jpg" for 127.0.0.1 at 2015-10-26 16:45:37 +0530
+
+
+Started GET "/assets/iphone-background-2-e2c735dcb3d14c3926cd216dd594c725083e4833e26c0875c1e52a989ed0ea82.jpg" for 127.0.0.1 at 2015-10-26 16:45:37 +0530
+
+
+Started GET "/assets/favicon-7bfd1ce12d3c10e9284a016379e59b063ad8bbf2b7041486e6c5b269dc86ffc9.png" for 127.0.0.1 at 2015-10-26 16:45:37 +0530
+
+
+Started GET "/demo" for 127.0.0.1 at 2015-10-26 16:46:24 +0530
+Processing by PageController#demo as HTML
+  Rendered page/demo.html.erb within layouts/application (63.3ms)
+  Rendered layouts/_currency.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (4.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (20.1ms)
+Completed 200 OK in 580ms (Views: 579.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/foundation_and_overrides.self-3711dad253684e98d44c9b4e34e6975491994fed623b8b4118bee2c514bc1354.css?body=1" for 127.0.0.1 at 2015-10-26 16:46:24 +0530
+
+
+Started GET "/assets/shipping.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-10-26 16:46:24 +0530
+
+
+Started GET "/assets/style.self-50a9adfada1aa67f7361fb02f2d0796846a181d106890a04314565eb4fd22323.css?body=1" for 127.0.0.1 at 2015-10-26 16:46:24 +0530
+
+
+Started GET "/assets/responsive.self-f031ae3b959e86e11686f9593121f23a3f24ea3ce4135e14d364892e3941ac37.css?body=1" for 127.0.0.1 at 2015-10-26 16:46:24 +0530
+
+
+Started GET "/assets/page.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/application.self-f78feb67e8049abf326e5f19e9ab2ba7f61b9f1fb25454cd35f52b7a3ef8936a.css?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/font-awesome.self-be09f9a5a5e8fd15a4e4d68dc8509252a33dc056003e53159586cf99368ba0e7.css?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/slick.self-bda8f9d95b879cc07b5d65bae0da7172c12fb2f443241a1957690e3b0568b2fc.css?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/slick-theme.self-3968490230827f6d907915bcf120df3018396a13b8271b6005fead14866e7d3b.css?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/slick.self-6e16c0ddbfaf61f8e2427ff9caf16b7c1aba8e8232fdc216d3d966496573317e.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/jquery-hover-effect.self-00776f79d3af2ad47874a804dea0bb77141dcdb0781e362a36b3f49d6db2f18b.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/application.self-35ffa77e84cdc71f77eb093ba2913ceeb82ba3ce010619964fb152c29725e2ca.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/Xskin-logo-a9941772dbaa1e1e2e724ae01a4130693e67a29991a248aea3c6a93acb6ec65d.png" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/iPhone6-front-a68d6e28a21be4cbb4c59acc4866a13dea9ea0e8efc0cc9106755cfd31b1ef91.jpg" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/zoom-f10e953e5a8e958d01130b29f41008a06dcfbb3dddac73ef608d6ad45ea431f8.png" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/add-to-cart-2e61c2a1c1a143ff5cd9aca6d8b4986d57648fb7b448d9ba51e2ab59c2caea63.png" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/iPhone6-back-0bb3af0d5861500bb4061c7a3c51c556918bd4cad40ab436c7a3edce0295cc82.jpg" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/iphone-background-b75b4116c048e06854d37e80acc1c6cc6c21b46c74752d5a16e8aa8c495d0691.jpg" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/girl-using-iphone-32efb70d5b555377b3b1dbc5c1c77fe2146a29aacbdec9e9bbb0eb096d316c0a.jpg" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/mans-using-iphone-8c988088b8882bc0a4e0c0b3088d3d982564d85625491e5448a06e11e7ee1180.jpg" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/google-play-store-acedb8b131ac38b5eafef90763528382a389499201fcebcaf1bdf1994e2fcb85.png" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/app-store-daf913a9de3e2d513fd1868e57ae4dfe0a7c473ceb0487f508fe8a20ee847794.png" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/vimeo-65f1186e62b58b791a5e7fd4d430b518ac123f802faaaaaba4a9a3ddffb282b2.png" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/iphone-background-3-8e824a3f1bd0c6f059fa6bd0b2593c0af761d77bfbb69169e3c4d642fb1f19ec.jpg" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/iphone-background-1-0573cb4280755dbfc86812d0ebaf9c96585113400dd6d40818f578fbac516c35.jpg" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/assets/iphone-background-2-e2c735dcb3d14c3926cd216dd594c725083e4833e26c0875c1e52a989ed0ea82.jpg" for 127.0.0.1 at 2015-10-26 16:46:25 +0530
+
+
+Started GET "/demo" for 127.0.0.1 at 2015-10-26 16:46:41 +0530
+Processing by PageController#demo as HTML
+  Rendered page/demo.html.erb within layouts/application (71.1ms)
+  Rendered layouts/_currency.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (4.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (18.7ms)
+Completed 200 OK in 614ms (Views: 613.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/page.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-10-26 16:46:42 +0530
+
+
+Started GET "/assets/foundation_and_overrides.self-3711dad253684e98d44c9b4e34e6975491994fed623b8b4118bee2c514bc1354.css?body=1" for 127.0.0.1 at 2015-10-26 16:46:42 +0530
+
+
+Started GET "/assets/responsive.self-f031ae3b959e86e11686f9593121f23a3f24ea3ce4135e14d364892e3941ac37.css?body=1" for 127.0.0.1 at 2015-10-26 16:46:42 +0530
+
+
+Started GET "/assets/style.self-50a9adfada1aa67f7361fb02f2d0796846a181d106890a04314565eb4fd22323.css?body=1" for 127.0.0.1 at 2015-10-26 16:46:42 +0530
+
+
+Started GET "/assets/shipping.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-10-26 16:46:42 +0530
+
+
+Started GET "/assets/application.self-f78feb67e8049abf326e5f19e9ab2ba7f61b9f1fb25454cd35f52b7a3ef8936a.css?body=1" for 127.0.0.1 at 2015-10-26 16:46:42 +0530
+
+
+Started GET "/assets/font-awesome.self-be09f9a5a5e8fd15a4e4d68dc8509252a33dc056003e53159586cf99368ba0e7.css?body=1" for 127.0.0.1 at 2015-10-26 16:46:42 +0530
+
+
+Started GET "/assets/slick.self-bda8f9d95b879cc07b5d65bae0da7172c12fb2f443241a1957690e3b0568b2fc.css?body=1" for 127.0.0.1 at 2015-10-26 16:46:42 +0530
+
+
+Started GET "/assets/slick-theme.self-3968490230827f6d907915bcf120df3018396a13b8271b6005fead14866e7d3b.css?body=1" for 127.0.0.1 at 2015-10-26 16:46:42 +0530
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:42 +0530
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:42 +0530
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:42 +0530
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:42 +0530
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:42 +0530
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:42 +0530
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:42 +0530
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:42 +0530
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:42 +0530
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:42 +0530
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:42 +0530
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:42 +0530
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:42 +0530
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:42 +0530
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:42 +0530
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:43 +0530
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:43 +0530
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:43 +0530
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:43 +0530
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:43 +0530
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:43 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:43 +0530
+
+
+Started GET "/assets/slick.self-6e16c0ddbfaf61f8e2427ff9caf16b7c1aba8e8232fdc216d3d966496573317e.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:43 +0530
+
+
+Started GET "/assets/jquery-hover-effect.self-00776f79d3af2ad47874a804dea0bb77141dcdb0781e362a36b3f49d6db2f18b.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:43 +0530
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:43 +0530
+
+
+Started GET "/assets/page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:43 +0530
+
+
+Started GET "/assets/application.self-22df4edcdf1e7625257a08232165f248a89d102f7dcf65bb9dafd68783613a82.js?body=1" for 127.0.0.1 at 2015-10-26 16:46:43 +0530
+
+
+Started GET "/assets/Xskin-logo-a9941772dbaa1e1e2e724ae01a4130693e67a29991a248aea3c6a93acb6ec65d.png" for 127.0.0.1 at 2015-10-26 16:46:43 +0530
+
+
+Started GET "/assets/iPhone6-front-a68d6e28a21be4cbb4c59acc4866a13dea9ea0e8efc0cc9106755cfd31b1ef91.jpg" for 127.0.0.1 at 2015-10-26 16:46:43 +0530
+
+
+Started GET "/assets/zoom-f10e953e5a8e958d01130b29f41008a06dcfbb3dddac73ef608d6ad45ea431f8.png" for 127.0.0.1 at 2015-10-26 16:46:43 +0530
+
+
+Started GET "/assets/add-to-cart-2e61c2a1c1a143ff5cd9aca6d8b4986d57648fb7b448d9ba51e2ab59c2caea63.png" for 127.0.0.1 at 2015-10-26 16:46:43 +0530
+
+
+Started GET "/assets/iPhone6-back-0bb3af0d5861500bb4061c7a3c51c556918bd4cad40ab436c7a3edce0295cc82.jpg" for 127.0.0.1 at 2015-10-26 16:46:43 +0530
+
+
+Started GET "/assets/iphone-background-b75b4116c048e06854d37e80acc1c6cc6c21b46c74752d5a16e8aa8c495d0691.jpg" for 127.0.0.1 at 2015-10-26 16:46:43 +0530
+
+
+Started GET "/assets/girl-using-iphone-32efb70d5b555377b3b1dbc5c1c77fe2146a29aacbdec9e9bbb0eb096d316c0a.jpg" for 127.0.0.1 at 2015-10-26 16:46:43 +0530
+
+
+Started GET "/assets/vimeo-65f1186e62b58b791a5e7fd4d430b518ac123f802faaaaaba4a9a3ddffb282b2.png" for 127.0.0.1 at 2015-10-26 16:46:43 +0530
+
+
+Started GET "/assets/mans-using-iphone-8c988088b8882bc0a4e0c0b3088d3d982564d85625491e5448a06e11e7ee1180.jpg" for 127.0.0.1 at 2015-10-26 16:46:43 +0530
+
+
+Started GET "/assets/app-store-daf913a9de3e2d513fd1868e57ae4dfe0a7c473ceb0487f508fe8a20ee847794.png" for 127.0.0.1 at 2015-10-26 16:46:43 +0530
+
+
+Started GET "/assets/google-play-store-acedb8b131ac38b5eafef90763528382a389499201fcebcaf1bdf1994e2fcb85.png" for 127.0.0.1 at 2015-10-26 16:46:43 +0530
+
+
+Started GET "/assets/iphone-background-1-0573cb4280755dbfc86812d0ebaf9c96585113400dd6d40818f578fbac516c35.jpg" for 127.0.0.1 at 2015-10-26 16:46:43 +0530
+
+
+Started GET "/assets/iphone-background-2-e2c735dcb3d14c3926cd216dd594c725083e4833e26c0875c1e52a989ed0ea82.jpg" for 127.0.0.1 at 2015-10-26 16:46:43 +0530
+
+
+Started GET "/assets/iphone-background-3-8e824a3f1bd0c6f059fa6bd0b2593c0af761d77bfbb69169e3c4d642fb1f19ec.jpg" for 127.0.0.1 at 2015-10-26 16:46:43 +0530
+
+
+Started GET "/assets/ajax-loader-e7b44c86b050fca766a96ddac2d0932af0126da6f2305280342d909168dcce6b.gif" for 127.0.0.1 at 2015-10-26 16:46:43 +0530
+
+
+Started GET "/store" for 127.0.0.1 at 2015-10-26 16:48:37 +0530
+Processing by PageController#store as HTML
+  Rendered page/store.html.erb within layouts/application (251.1ms)
+  Rendered layouts/_currency.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (4.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (24.4ms)
+Completed 200 OK in 603ms (Views: 602.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/users/sign_in" for 127.0.0.1 at 2015-10-26 16:55:52 +0530
+Processing by Devise::SessionsController#new as HTML
+  Rendered devise/shared/_links.html.erb (2.9ms)
+  Rendered devise/sessions/new.html.erb within layouts/application (247.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (17.4ms)
+Completed 200 OK in 820ms (Views: 656.4ms | ActiveRecord: 119.1ms)
+
+
+Started GET "/assets/login-on-xskin.jpg" for 127.0.0.1 at 2015-10-26 16:55:54 +0530
+
+
+Started POST "/users/sign_in" for 127.0.0.1 at 2015-10-26 16:55:59 +0530
+Processing by Devise::SessionsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"+ae9r5ZkP/3vuQo4S3IeQtN4jbWyeluArLca/GyrUK/nUszr6vfhA2v7AY8sSjPRyUQenEf16Xy+WDadO8tPOA==", "user"=>{"email"=>"aman_kumar@esferasoft.com", "password"=>"[FILTERED]", "remember_me"=>"0"}, "commit"=>"Sign in"}
+  [1m[35mUser Load (457.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`email` = 'aman_kumar@esferasoft.com'  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mSQL (114.2ms)[0m  UPDATE `users` SET `last_sign_in_at` = '2015-10-24 07:07:25', `current_sign_in_at` = '2015-10-26 11:26:00', `sign_in_count` = 24, `updated_at` = '2015-10-26 11:26:00' WHERE `users`.`id` = 1
+  [1m[36m (65.1ms)[0m  [1mCOMMIT[0m
+Redirected to http://localhost:4444/demo
+Completed 302 Found in 1491ms (ActiveRecord: 636.7ms)
+
+
+Started GET "/demo" for 127.0.0.1 at 2015-10-26 16:56:01 +0530
+Processing by PageController#demo as HTML
+  Rendered page/demo.html.erb within layouts/application (66.1ms)
+  [1m[35mUser Load (34.5ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered layouts/_currency.html.erb (0.8ms)
+  Rendered layouts/_header.html.erb (45.7ms)
+  Rendered layouts/_messages.html.erb (0.3ms)
+  Rendered layouts/_footer.html.erb (16.5ms)
+Completed 200 OK in 440ms (Views: 405.3ms | ActiveRecord: 34.5ms)
+
+
+Started GET "/iphone6" for 127.0.0.1 at 2015-10-26 16:56:07 +0530
+Processing by PageController#iphone6 as HTML
+  Rendered page/iphone6.html.erb within layouts/application (48.7ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered layouts/_currency.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (5.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (21.8ms)
+Completed 200 OK in 420ms (Views: 419.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/iphone-angle.png" for 127.0.0.1 at 2015-10-26 16:56:08 +0530
+
+
+Started GET "/assets/iphone-tri.png" for 127.0.0.1 at 2015-10-26 16:56:08 +0530
+
+
+Started GET "/apple_watch" for 127.0.0.1 at 2015-10-26 16:56:14 +0530
+Processing by PageController#apple_watch as HTML
+  Rendered page/apple_watch.html.erb within layouts/application (86.0ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered layouts/_currency.html.erb (0.4ms)
+  Rendered layouts/_header.html.erb (5.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (23.0ms)
+Completed 200 OK in 461ms (Views: 459.8ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/assets/iwatch-1-269d9be860947d9605714b53d58ee15ea24ec92ef5c5e45c07d9061f08da1137.jpg" for 127.0.0.1 at 2015-10-26 16:56:15 +0530
+
+
+Started GET "/assets/iwatch-2-be2605f0daf16685c4376e94d7a27eb01227f827015962614d19276b7e3afc46.jpg" for 127.0.0.1 at 2015-10-26 16:56:15 +0530
+
+
+Started GET "/assets/iwatch-3-5fcfb4210cea0a5dc5a3d1931957a1c41e3950b85590d1e336e4bfc10f1f0d7a.jpg" for 127.0.0.1 at 2015-10-26 16:56:15 +0530
+
+
+Started GET "/apple_watch" for 127.0.0.1 at 2015-10-26 16:58:15 +0530
+Processing by PageController#apple_watch as HTML
+  Rendered page/apple_watch.html.erb within layouts/application (52.3ms)
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered layouts/_currency.html.erb (0.3ms)
+  Rendered layouts/_header.html.erb (5.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (17.1ms)
+Completed 200 OK in 386ms (Views: 384.5ms | ActiveRecord: 0.2ms)
