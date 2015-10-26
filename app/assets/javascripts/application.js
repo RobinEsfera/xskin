@@ -49,5 +49,8 @@ $("#shipping-address").click(function(){
   $(".shipping-edit-details").slideToggle("slow");
 
 });
+$(function() {
+  $('.da-thumbs .spotting-hover').hoverdir();
+});
 
 });

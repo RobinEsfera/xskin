@@ -1,0 +1,75 @@
+<header>
+        <div class="row">
+        <div class="xskin-login text-right">
+          <ul class="xskin-login-language">
+            <li class="hide-for-small-only"><a href="#">ENGLISH <sup>.</sup></a></li>
+      <% if user_signed_in? %>
+            <li class="login last">
+            <%=link_to"Logout",destroy_user_session_path,:method=>"delete"  %>
+            </li>
+            <li class="login last">
+            <%=link_to"Cart","javascript:void(0);"  %>
+            </li>
+      <% else %>      
+          <li class="login last">
+          <%=link_to"LOGIN",new_user_session_path, :title=>"Login to start"  %>
+          </li>
+      <% end %>            
+          </ul>
+        </div>
+
+        <div class="xskin-menu-with-logo">
+            <div class="large-4 medium-4 columns">
+            <div class="xskin-logo">
+            <%= link_to image_tag('Xskin-logo.png'), root_path,:class =>"logo left",:alt=>"Skin" ,:title=>"XSkin"  %>
+             
+              </div>
+              <div class="show-for-small-only mobile-search">
+                <input type="submit" value="Send" />
+              </div>
+            </div>
+            <!-- Xskin-logo close from here -->
+
+            <!-- Search area for only mobile -->
+            <div class="show-for-small-only xskin-mobile-search">
+                <div class="enter-keywords" style="display: none;">
+                <input type="text" placeholder="Search Here |" />
+                </div>
+                <div class="press-enter mobile-search" style="display: none;">
+                  <input type="submit" value="Send" />
+                </div>
+              </div>
+          <div class="large-8 medium-8 columns hide-for-small-only">
+            <ul class="xskin-menu">
+              <li><%= link_to"MAKE YOUR CASE",make_path,:class => active_class?(make_path) %></li>
+              <li><%= link_to"STORE",store_path,:class => active_class?(store_path) %></li>
+              <li><%= link_to"iPHONE6",iphone6_path,:class => active_class?(iphone6_path) %></li>
+              <li><%= link_to"APPLE WATCH",apple_watch_path,:class => active_class?(apple_watch_path) %></li>
+              <li class="xskin-search"><input type="submit" value="Send" /></li>
+                </ul>
+                </div>
+                <!-- Xskin menu for destop close from here -->
+                
+
+                <nav class="tab-bar show-for-small-only">
+                  <section class="left-small">
+                    <a href="#" class="left-off-canvas-toggle menu-icon" aria-expanded="false"><span></span></a>
+                    </section>
+                      <section class="right tab-bar-section">
+                        <h1 class="title">Menu</h1>
+                      </section>
+                      </nav>
+
+                         </div>
+                        <aside class="left-off-canvas-menu">
+                          <ul class="off-canvas-list">
+                            <li><label>Menu</label></li>
+                            <li><a href="make-your-case.html">MAKE YOUR CASE</a></li>
+                            <li><a href="#">STORE</a></li>
+                            <li><a href="#">iPHONE6</a></li>
+                            <li><a href="#">APPLE WATCH</a></li>
+                          </ul>
+                        </aside>
+                        </div>
+                      <!-- row close from here -->
+                        </header>
