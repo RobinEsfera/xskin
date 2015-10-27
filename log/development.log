@@ -60467,3 +60467,36 @@ Processing by PageController#spotting as HTML
   Rendered layouts/_messages.html.erb (0.1ms)
   Rendered layouts/_footer.html.erb (16.0ms)
 Completed 200 OK in 371ms (Views: 369.9ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/spotting" for 127.0.0.1 at 2015-10-27 10:08:25 +0530
+Processing by PageController#spotting as HTML
+  Rendered page/spotting.html.erb within layouts/application (64.2ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM `currencies`[0m
+  [1m[35mCurrency Load (0.1ms)[0m  SELECT `currencies`.* FROM `currencies`
+  Rendered layouts/_currency.html.erb (11.7ms)
+  Rendered layouts/_header.html.erb (18.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (16.9ms)
+Completed 200 OK in 394ms (Views: 393.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/spotting" for 127.0.0.1 at 2015-10-27 10:09:46 +0530
+Processing by PageController#spotting as HTML
+  Rendered page/spotting.html.erb within layouts/application (51.2ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM `currencies`[0m
+  [1m[35mCurrency Load (0.1ms)[0m  SELECT `currencies`.* FROM `currencies`
+  Rendered layouts/_currency.html.erb (2.2ms)
+  Rendered layouts/_header.html.erb (12.3ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (17.4ms)
+Completed 200 OK in 713ms (Views: 712.2ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/application.self-a112721821ce12ad4e30149e10bc39e1db6c000eb516b62d347bb504e27259b4.js?body=1" for 127.0.0.1 at 2015-10-27 10:09:47 +0530
+
+
+Started GET "/assets/body_bg.png" for 127.0.0.1 at 2015-10-27 10:09:47 +0530
+
+
+Started GET "/assets/search.png" for 127.0.0.1 at 2015-10-27 10:09:47 +0530

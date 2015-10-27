@@ -58,6 +58,7 @@ $(function() {
 $(".search_content").click(function(){
   // var element = $(this);
   $(".xskin-mobile-search").toggle();
+  $(".enter-keywords input").focus();
 });
 $(".close-search").click(function(){
   // var element = $(this);
