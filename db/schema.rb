@@ -35,6 +35,12 @@ ActiveRecord::Schema.define(version: 20151027052717) do
     t.datetime "updated_at",             null: false
   end
 
+  create_table "newsletters", force: :cascade do |t|
+    t.string   "email",      limit: 255
+    t.datetime "created_at",             null: false
+    t.datetime "updated_at",             null: false
+  end
+
   create_table "shipping_addresses", force: :cascade do |t|
     t.string   "first_name", limit: 255
     t.string   "last_name",  limit: 255
