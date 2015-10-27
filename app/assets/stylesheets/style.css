@@ -1593,6 +1593,7 @@ ul.discount-in-dollar li .chckbox input{
 }
 .xskin-template .iphone-6 img{
 	width: auto;
+	display: inline;
 }
 .accordion .accordion-navigation a, .accordion .accordion-navigation.active a{
 	color: #888;
