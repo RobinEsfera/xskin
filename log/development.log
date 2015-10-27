@@ -64195,3 +64195,125 @@ Started GET "/assets/body_bg.png" for 127.0.0.1 at 2015-10-27 11:28:36 +0530
 
 
 Started GET "/assets/search.png" for 127.0.0.1 at 2015-10-27 11:28:36 +0530
+
+
+Started GET "/demo" for 127.0.0.1 at 2015-10-27 14:12:25 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (1.8ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+Processing by PageController#demo as HTML
+  Rendered page/demo.html.erb within layouts/application (348.5ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `currencies`[0m
+  [1m[35mCurrency Load (0.2ms)[0m  SELECT `currencies`.* FROM `currencies`
+  Rendered layouts/_currency.html.erb (27.3ms)
+  Rendered layouts/_header.html.erb (265.4ms)
+  Rendered layouts/_messages.html.erb (1.0ms)
+  Rendered layouts/_footer.html.erb (163.2ms)
+Completed 200 OK in 1783ms (Views: 1719.8ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/style.self-39a7dd81c5d78a6e140d3e33be1f3c461b82362dd8e3d23b00993eae9a2e006b.css?body=1" for 127.0.0.1 at 2015-10-27 14:12:27 +0530
+
+
+Started GET "/assets/search.png" for 127.0.0.1 at 2015-10-27 14:12:27 +0530
+
+
+Started GET "/assets/body_bg.png" for 127.0.0.1 at 2015-10-27 14:12:27 +0530
+
+
+Started GET "/assets/favicon-7bfd1ce12d3c10e9284a016379e59b063ad8bbf2b7041486e6c5b269dc86ffc9.png" for 127.0.0.1 at 2015-10-27 14:12:28 +0530
+
+
+Started POST "/page/newsletter_submit" for 127.0.0.1 at 2015-10-27 14:12:36 +0530
+Processing by PageController#newsletter_submit as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"i0q47CrytZ2epqXWW8aPo2iFFwvp1/QwdHxAII8J/VHKk5u09TaAK90WsmF2qddeW3fwTyzNuDay4NRacEIo1g==", "newsletter"=>{"email"=>"aman_kumar@esferasoft.com"}, "commit"=>"submit"}
+  [1m[36m (0.2ms)[0m  [1mBEGIN[0m
+  [1m[35mNewsletter Exists (0.3ms)[0m  SELECT  1 AS one FROM `newsletters` WHERE `newsletters`.`email` = BINARY 'aman_kumar@esferasoft.com' LIMIT 1
+  [1m[36m (28.0ms)[0m  [1mROLLBACK[0m
+Redirected to http://localhost:4444/demo
+Completed 302 Found in 86ms (ActiveRecord: 29.6ms)
+
+
+Started GET "/demo" for 127.0.0.1 at 2015-10-27 14:12:37 +0530
+Processing by PageController#demo as HTML
+  Rendered page/demo.html.erb within layouts/application (74.1ms)
+  [1m[35mUser Load (0.1ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `currencies`[0m
+  [1m[35mCurrency Load (0.1ms)[0m  SELECT `currencies`.* FROM `currencies`
+  Rendered layouts/_currency.html.erb (3.4ms)
+  Rendered layouts/_header.html.erb (13.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (28.0ms)
+Completed 200 OK in 515ms (Views: 513.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2015-10-27 14:12:46 +0530
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1[0m
+  Rendered layouts/_user_menu.html.erb (1.4ms)
+  Rendered devise/registrations/edit.html.erb within layouts/application (69.3ms)
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `currencies`
+  [1m[36mCurrency Load (0.1ms)[0m  [1mSELECT `currencies`.* FROM `currencies`[0m
+  Rendered layouts/_currency.html.erb (2.5ms)
+  Rendered layouts/_header.html.erb (10.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (20.4ms)
+Completed 200 OK in 477ms (Views: 475.2ms | ActiveRecord: 0.4ms)
+
+
+Started POST "/users/shipping/address_edit" for 127.0.0.1 at 2015-10-27 14:12:54 +0530
+
+ActionController::RoutingError (No route matches [POST] "/users/shipping/address_edit"):
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:21:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/ip-d/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/ip-d/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/ip-d/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (1.6ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (2.9ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_route.html.erb (0.6ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/routes/_table.html.erb (14.3ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (2.8ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/routing_error.html.erb within rescues/layout (68.8ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.6ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.6ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (15.9ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.4ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (33.6ms)
+
+
+Started GET "/users/edit" for 127.0.0.1 at 2015-10-27 14:13:00 +0530
+Processing by Devise::RegistrationsController#edit as HTML
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  Rendered layouts/_user_menu.html.erb (1.1ms)
+  Rendered devise/registrations/edit.html.erb within layouts/application (7.0ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `currencies`[0m
+  [1m[35mCurrency Load (0.2ms)[0m  SELECT `currencies`.* FROM `currencies`
+  Rendered layouts/_currency.html.erb (3.0ms)
+  Rendered layouts/_header.html.erb (10.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (20.0ms)
+Completed 200 OK in 382ms (Views: 379.6ms | ActiveRecord: 0.6ms)
