@@ -53,6 +53,19 @@ $(function() {
   $('.da-thumbs .spotting-hover').hoverdir();
 });
 
+<<<<<<< HEAD
 
 });
 
+=======
+$(".search_content").click(function(){
+  // var element = $(this);
+  $(".xskin-mobile-search").toggle();
+});
+$(".close-search").click(function(){
+  // var element = $(this);
+  $(".xskin-mobile-search").hide();
+});
+
+});
+>>>>>>> 15b0fead1e52d5df090135526e086ca3c479b9f6

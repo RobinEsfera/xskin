@@ -1,6 +1,20 @@
+<% @arrCurrency = Currency.all %>
 <div id="xskin-currencyModal" class="reveal-modal large" data-reveal aria-labelledby="videoModalTitle" aria-hidden="true" role="dialog">
   <h5>Choose your Currency</h5>
     <ul class="world-currency">
+
+      <% if @arrCurrency.any? %>
+        <% @arrCurrency.each do |arrCurrency| %>
+          <% if arrCurrency.name == cookies[:currency] %>
+            <li><a href="javascript:void(0);" class="active-currency"><%= arrCurrency.name %></a></li>
+
+          <% else %>
+            <li><a href="javascript:void(0);"><%= arrCurrency.name %></a></li>
+            
+          <% end %>
+        <% end %>
+      <% end %>
+
       <li><a href="javascript:void(0);">AUD (&#x41;&dollar;)</a></li>
       <li><a href="javascript:void(0);">BRL (&#x52;&#x24;)</a></li>
       <li><a href="javascript:void(0);">CAD (&#x24;)</a></li>
@@ -21,6 +35,7 @@
       <li><a href="javascript:void(0);">SGD (&#x53;&#x24;)</a></li>
       <li><a href="javascript:void(0);">TWD (&#x4e;&#x54;&#x24;)</a></li>
       <li><a href="javascript:void(0);">USD (&#x24;)</a></li>
+
     </ul>
     <div class="clearfix"></div>
     <div class="confirm">

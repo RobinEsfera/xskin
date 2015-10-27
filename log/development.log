@@ -59460,3 +59460,325 @@ Processing by PageController#apple_watch as HTML
   Rendered layouts/_messages.html.erb (0.1ms)
   Rendered layouts/_footer.html.erb (17.1ms)
 Completed 200 OK in 386ms (Views: 384.5ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-26 18:43:36 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.2ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/apple_watch" for 127.0.0.1 at 2015-10-26 18:44:07 +0530
+Processing by PageController#apple_watch as HTML
+  Rendered page/apple_watch.html.erb within layouts/application (490.2ms)
+  [1m[35mUser Load (0.2ms)[0m  SELECT  `users`.* FROM `users` WHERE `users`.`id` = 1  ORDER BY `users`.`id` ASC LIMIT 1
+  [1m[36m (128.8ms)[0m  [1mSELECT COUNT(*) FROM `currencies`[0m
+  [1m[35mCurrency Load (0.3ms)[0m  SELECT `currencies`.* FROM `currencies`
+  Rendered layouts/_currency.html.erb (205.1ms)
+  Rendered layouts/_header.html.erb (394.1ms)
+  Rendered layouts/_messages.html.erb (1.1ms)
+  Rendered layouts/_footer.html.erb (67.6ms)
+Completed 200 OK in 3752ms (Views: 3192.2ms | ActiveRecord: 251.4ms)
+
+
+Started GET "/assets/style.self-4f99b3df3e6aa85afd85a197a3a8d243068272f0e6915a04c5607d7984926909.css?body=1" for 127.0.0.1 at 2015-10-26 18:44:13 +0530
+
+
+Started GET "/assets/close-b75008c703dee56d4354cea598245245a187ba174948da1e6b0d646e4104cb7c.png" for 127.0.0.1 at 2015-10-26 18:44:13 +0530
+
+
+Started GET "/assets/application.self-a853d03e1d0e68abb8146e3e234bed1b7503d29838fd3801bb84a4cde78fde03.js?body=1" for 127.0.0.1 at 2015-10-26 18:44:13 +0530
+
+
+Started GET "/assets/search.png" for 127.0.0.1 at 2015-10-26 18:44:13 +0530
+
+
+Started GET "/assets/body_bg.png" for 127.0.0.1 at 2015-10-26 18:44:14 +0530
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-27 09:28:16 +0530
+  [1m[36mActiveRecord::SchemaMigration Load (0.3ms)[0m  [1mSELECT `schema_migrations`.* FROM `schema_migrations`[0m
+
+
+Started GET "/admin" for 127.0.0.1 at 2015-10-27 09:28:21 +0530
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35m (0.4ms)[0m  SELECT COUNT(*) FROM `countries`
+  [1m[36mCountry Load (0.4ms)[0m  [1mSELECT  `countries`.* FROM `countries`  ORDER BY countries.updated_at desc LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `currencies`
+  [1m[36mCurrency Load (0.3ms)[0m  [1mSELECT  `currencies`.* FROM `currencies`  ORDER BY currencies.updated_at desc LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `shipping_addresses`
+  [1m[36mShippingAddress Load (0.3ms)[0m  [1mSELECT  `shipping_addresses`.* FROM `shipping_addresses`  ORDER BY shipping_addresses.updated_at desc LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `users`
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  ORDER BY users.updated_at desc LIMIT 1[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `user_meta`
+  [1m[36mUserMetum Load (0.3ms)[0m  [1mSELECT  `user_meta`.* FROM `user_meta`  ORDER BY user_meta.updated_at desc LIMIT 1[0m
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (20.2ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/layouts/rails_admin/_secondary_navigation.html.haml (4.6ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/layouts/rails_admin/_navigation.html.haml (12.3ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (6.1ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/layouts/rails_admin/pjax.html.haml (3.9ms)
+Completed 200 OK in 5107ms (Views: 4683.3ms | ActiveRecord: 7.7ms)
+
+
+Started GET "/admin" for 127.0.0.1 at 2015-10-27 09:28:27 +0530
+Processing by RailsAdmin::MainController#dashboard as HTML
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `countries`
+  [1m[36mCountry Load (0.3ms)[0m  [1mSELECT  `countries`.* FROM `countries`  ORDER BY countries.updated_at desc LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `currencies`
+  [1m[36mCurrency Load (0.1ms)[0m  [1mSELECT  `currencies`.* FROM `currencies`  ORDER BY currencies.updated_at desc LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `shipping_addresses`
+  [1m[36mShippingAddress Load (0.2ms)[0m  [1mSELECT  `shipping_addresses`.* FROM `shipping_addresses`  ORDER BY shipping_addresses.updated_at desc LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `users`
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users`  ORDER BY users.updated_at desc LIMIT 1[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `user_meta`
+  [1m[36mUserMetum Load (0.2ms)[0m  [1mSELECT  `user_meta`.* FROM `user_meta`  ORDER BY user_meta.updated_at desc LIMIT 1[0m
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/application (16.5ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/layouts/rails_admin/_secondary_navigation.html.haml (0.7ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/layouts/rails_admin/_navigation.html.haml (2.0ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/layouts/rails_admin/_sidebar_navigation.html.haml (3.5ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/layouts/rails_admin/pjax.html.haml (1.2ms)
+Completed 200 OK in 405ms (Views: 391.9ms | ActiveRecord: 1.8ms)
+
+
+Started GET "/admin/country?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-10-27 09:30:29 +0530
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"country"}
+  [1m[35mCountry Load (0.3ms)[0m  SELECT  `countries`.* FROM `countries`  ORDER BY countries.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `countries`[0m
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (89.5ms)
+Completed 200 OK in 116ms (Views: 107.3ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/admin/currency?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-10-27 09:31:00 +0530
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"currency"}
+  [1m[35mCurrency Load (0.4ms)[0m  SELECT  `currencies`.* FROM `currencies`  ORDER BY currencies.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `currencies`[0m
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (169.1ms)
+Completed 200 OK in 191ms (Views: 178.9ms | ActiveRecord: 0.5ms)
+
+
+Started GET "/admin/country?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-10-27 09:31:02 +0530
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"country"}
+  [1m[35mCountry Load (0.1ms)[0m  SELECT  `countries`.* FROM `countries`  ORDER BY countries.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `countries`[0m
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (19.3ms)
+Completed 200 OK in 33ms (Views: 25.9ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin/shipping_address?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-10-27 09:31:03 +0530
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"shipping_address"}
+  [1m[35mShippingAddress Load (0.3ms)[0m  SELECT  `shipping_addresses`.* FROM `shipping_addresses`  ORDER BY shipping_addresses.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM `shipping_addresses`[0m
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (15.9ms)
+Completed 200 OK in 41ms (Views: 21.2ms | ActiveRecord: 0.7ms)
+
+
+Started GET "/admin/country?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-10-27 09:31:04 +0530
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"country"}
+  [1m[35mCountry Load (0.1ms)[0m  SELECT  `countries`.* FROM `countries`  ORDER BY countries.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM `countries`[0m
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (23.3ms)
+Completed 200 OK in 35ms (Views: 28.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/currency?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-10-27 09:31:12 +0530
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"currency"}
+  [1m[35mCurrency Load (0.2ms)[0m  SELECT  `currencies`.* FROM `currencies`  ORDER BY currencies.id desc LIMIT 20 OFFSET 0
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `currencies`[0m
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (114.2ms)
+Completed 200 OK in 129ms (Views: 121.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin/currency/7?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-10-27 09:31:17 +0530
+Processing by RailsAdmin::MainController#show as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"currency", "id"=>"7"}
+  [1m[35mCurrency Load (0.4ms)[0m  SELECT  `currencies`.* FROM `currencies` WHERE `currencies`.`id` = 7  ORDER BY `currencies`.`id` ASC LIMIT 1
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/show.html.haml within layouts/rails_admin/pjax (3.1ms)
+Completed 200 OK in 87ms (Views: 28.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin/?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-10-27 09:31:22 +0530
+Processing by RailsAdmin::MainController#dashboard as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]"}
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `countries`[0m
+  [1m[35mCountry Load (0.1ms)[0m  SELECT  `countries`.* FROM `countries`  ORDER BY countries.updated_at desc LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM `currencies`[0m
+  [1m[35mCurrency Load (0.1ms)[0m  SELECT  `currencies`.* FROM `currencies`  ORDER BY currencies.updated_at desc LIMIT 1
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `shipping_addresses`[0m
+  [1m[35mShippingAddress Load (0.1ms)[0m  SELECT  `shipping_addresses`.* FROM `shipping_addresses`  ORDER BY shipping_addresses.updated_at desc LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM `users`[0m
+  [1m[35mUser Load (0.4ms)[0m  SELECT  `users`.* FROM `users`  ORDER BY users.updated_at desc LIMIT 1
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM `user_meta`[0m
+  [1m[35mUserMetum Load (0.1ms)[0m  SELECT  `user_meta`.* FROM `user_meta`  ORDER BY user_meta.updated_at desc LIMIT 1
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/dashboard.html.haml within layouts/rails_admin/pjax (27.4ms)
+Completed 200 OK in 54ms (Views: 41.0ms | ActiveRecord: 1.7ms)
+
+
+Started GET "/admin/country/new?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-10-27 09:32:02 +0530
+Processing by RailsAdmin::MainController#new as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"country"}
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_field.html.haml (3.5ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_field.html.haml (0.5ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/_submit_buttons.html.haml (6.6ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/new.html.haml within layouts/rails_admin/pjax (105.8ms)
+Completed 200 OK in 146ms (Views: 140.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/country?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-10-27 09:32:05 +0530
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"country"}
+  [1m[36mCountry Load (0.1ms)[0m  [1mSELECT  `countries`.* FROM `countries`  ORDER BY countries.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.3ms)[0m  SELECT COUNT(*) FROM `countries`
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (23.3ms)
+Completed 200 OK in 36ms (Views: 29.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin/currency?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-10-27 09:32:06 +0530
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"currency"}
+  [1m[36mCurrency Load (0.1ms)[0m  [1mSELECT  `currencies`.* FROM `currencies`  ORDER BY currencies.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `currencies`
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (108.1ms)
+Completed 200 OK in 123ms (Views: 114.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/shipping_address?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-10-27 09:32:07 +0530
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"shipping_address"}
+  [1m[36mShippingAddress Load (0.1ms)[0m  [1mSELECT  `shipping_addresses`.* FROM `shipping_addresses`  ORDER BY shipping_addresses.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `shipping_addresses`
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (17.6ms)
+Completed 200 OK in 31ms (Views: 25.0ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/user?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-10-27 09:32:07 +0530
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  [1m[36mUser Load (0.4ms)[0m  [1mSELECT  `users`.* FROM `users`  ORDER BY users.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `users`
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (35.7ms)
+Completed 200 OK in 54ms (Views: 41.8ms | ActiveRecord: 0.6ms)
+
+
+Started GET "/admin/user_metum?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-10-27 09:32:08 +0530
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user_metum"}
+  [1m[36mUserMetum Load (0.4ms)[0m  [1mSELECT  `user_meta`.* FROM `user_meta`  ORDER BY user_meta.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `user_meta`
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (14.6ms)
+Completed 200 OK in 33ms (Views: 19.8ms | ActiveRecord: 0.8ms)
+
+
+Started GET "/admin/user?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-10-27 09:32:10 +0530
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  ORDER BY users.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `users`
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (33.3ms)
+Completed 200 OK in 43ms (Views: 39.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/shipping_address?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-10-27 09:32:10 +0530
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"shipping_address"}
+  [1m[36mShippingAddress Load (0.2ms)[0m  [1mSELECT  `shipping_addresses`.* FROM `shipping_addresses`  ORDER BY shipping_addresses.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `shipping_addresses`
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (16.4ms)
+Completed 200 OK in 29ms (Views: 22.7ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/currency?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-10-27 09:32:11 +0530
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"currency"}
+  [1m[36mCurrency Load (0.2ms)[0m  [1mSELECT  `currencies`.* FROM `currencies`  ORDER BY currencies.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `currencies`
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (108.2ms)
+Completed 200 OK in 125ms (Views: 115.2ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin/country?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-10-27 09:32:12 +0530
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"country"}
+  [1m[36mCountry Load (0.1ms)[0m  [1mSELECT  `countries`.* FROM `countries`  ORDER BY countries.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `countries`
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (23.3ms)
+Completed 200 OK in 36ms (Views: 29.8ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/currency?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-10-27 09:32:13 +0530
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"currency"}
+  [1m[36mCurrency Load (0.2ms)[0m  [1mSELECT  `currencies`.* FROM `currencies`  ORDER BY currencies.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `currencies`
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (103.3ms)
+Completed 200 OK in 116ms (Views: 108.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin/shipping_address?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-10-27 09:32:13 +0530
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"shipping_address"}
+  [1m[36mShippingAddress Load (0.1ms)[0m  [1mSELECT  `shipping_addresses`.* FROM `shipping_addresses`  ORDER BY shipping_addresses.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM `shipping_addresses`
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (18.8ms)
+Completed 200 OK in 33ms (Views: 27.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/admin/user?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-10-27 09:32:14 +0530
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  [1m[36mUser Load (0.1ms)[0m  [1mSELECT  `users`.* FROM `users`  ORDER BY users.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `users`
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (40.1ms)
+Completed 200 OK in 50ms (Views: 45.4ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/user_metum?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-10-27 09:32:15 +0530
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user_metum"}
+  [1m[36mUserMetum Load (0.2ms)[0m  [1mSELECT  `user_meta`.* FROM `user_meta`  ORDER BY user_meta.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM `user_meta`
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (11.0ms)
+Completed 200 OK in 27ms (Views: 20.5ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/admin/user?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-10-27 09:32:15 +0530
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  [1m[36mUser Load (0.2ms)[0m  [1mSELECT  `users`.* FROM `users`  ORDER BY users.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.2ms)[0m  SELECT COUNT(*) FROM `users`
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (25.2ms)
+Completed 200 OK in 42ms (Views: 31.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/admin/user/new?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-10-27 09:32:21 +0530
+Processing by RailsAdmin::MainController#new as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"user"}
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_field.html.haml (0.4ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_field.html.haml (1.0ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_datetime.html.haml (2.2ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_datetime.html.haml (1.4ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_field.html.haml (1.1ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_datetime.html.haml (1.1ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_datetime.html.haml (1.0ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_field.html.haml (0.2ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_field.html.haml (0.4ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_field.html.haml (0.3ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/_form_boolean.html.haml (21.1ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/_submit_buttons.html.haml (1.4ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/new.html.haml within layouts/rails_admin/pjax (79.8ms)
+Completed 200 OK in 92ms (Views: 87.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/admin/shipping_address?_pjax=%5Bdata-pjax-container%5D" for 127.0.0.1 at 2015-10-27 09:32:28 +0530
+Processing by RailsAdmin::MainController#index as HTML
+  Parameters: {"_pjax"=>"[data-pjax-container]", "model_name"=>"shipping_address"}
+  [1m[36mShippingAddress Load (0.2ms)[0m  [1mSELECT  `shipping_addresses`.* FROM `shipping_addresses`  ORDER BY shipping_addresses.id desc LIMIT 20 OFFSET 0[0m
+  [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM `shipping_addresses`
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (19.6ms)
+Completed 200 OK in 37ms (Views: 28.3ms | ActiveRecord: 0.4ms)
