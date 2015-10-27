@@ -59782,3 +59782,688 @@ Processing by RailsAdmin::MainController#index as HTML
   [1m[35m (0.1ms)[0m  SELECT COUNT(*) FROM `shipping_addresses`
   Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/rails_admin-0.7.0/app/views/rails_admin/main/index.html.haml within layouts/rails_admin/pjax (19.6ms)
 Completed 200 OK in 37ms (Views: 28.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/" for 127.0.0.1 at 2015-10-27 09:38:07 +0530
+
+Mysql2::Error (Can't connect to local MySQL server through socket '/var/run/mysqld/mysqld.sock' (2)):
+  mysql2 (0.3.18) lib/mysql2/client.rb:70:in `connect'
+  mysql2 (0.3.18) lib/mysql2/client.rb:70:in `initialize'
+  activerecord (4.2.3) lib/active_record/connection_adapters/mysql2_adapter.rb:264:in `new'
+  activerecord (4.2.3) lib/active_record/connection_adapters/mysql2_adapter.rb:264:in `connect'
+  activerecord (4.2.3) lib/active_record/connection_adapters/mysql2_adapter.rb:97:in `reconnect!'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract_adapter.rb:328:in `verify!'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:456:in `block in checkout_and_verify'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:455:in `checkout_and_verify'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:351:in `block in checkout'
+  /home/ip-d/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:348:in `checkout'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:263:in `block in connection'
+  /home/ip-d/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/monitor.rb:211:in `mon_synchronize'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:262:in `connection'
+  activerecord (4.2.3) lib/active_record/connection_adapters/abstract/connection_pool.rb:571:in `retrieve_connection'
+  activerecord (4.2.3) lib/active_record/connection_handling.rb:113:in `retrieve_connection'
+  activerecord (4.2.3) lib/active_record/connection_handling.rb:87:in `connection'
+  activerecord (4.2.3) lib/active_record/migration.rb:383:in `connection'
+  activerecord (4.2.3) lib/active_record/migration.rb:370:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:29:in `block in call'
+  activesupport (4.2.3) lib/active_support/callbacks.rb:84:in `run_callbacks'
+  actionpack (4.2.3) lib/action_dispatch/middleware/callbacks.rb:27:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/reloader.rb:73:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/remote_ip.rb:78:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/debug_exceptions.rb:17:in `call'
+  web-console (2.2.1) lib/web_console/middleware.rb:39:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/show_exceptions.rb:30:in `call'
+  railties (4.2.3) lib/rails/rack/logger.rb:38:in `call_app'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `block in call'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `block in tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:26:in `tagged'
+  activesupport (4.2.3) lib/active_support/tagged_logging.rb:68:in `tagged'
+  railties (4.2.3) lib/rails/rack/logger.rb:20:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/request_id.rb:21:in `call'
+  rack (1.6.4) lib/rack/methodoverride.rb:22:in `call'
+  rack (1.6.4) lib/rack/runtime.rb:18:in `call'
+  activesupport (4.2.3) lib/active_support/cache/strategy/local_cache_middleware.rb:28:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  actionpack (4.2.3) lib/action_dispatch/middleware/static.rb:116:in `call'
+  rack (1.6.4) lib/rack/sendfile.rb:113:in `call'
+  railties (4.2.3) lib/rails/engine.rb:518:in `call'
+  railties (4.2.3) lib/rails/application.rb:165:in `call'
+  rack (1.6.4) lib/rack/lock.rb:17:in `call'
+  rack (1.6.4) lib/rack/content_length.rb:15:in `call'
+  rack (1.6.4) lib/rack/handler/webrick.rb:88:in `service'
+  /home/ip-d/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:138:in `service'
+  /home/ip-d/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/httpserver.rb:94:in `run'
+  /home/ip-d/.rvm/rubies/ruby-2.1.5/lib/ruby/2.1.0/webrick/server.rb:295:in `block in start_thread'
+
+
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_source.erb (4.0ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_trace.html.erb (2.0ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/_request_and_response.html.erb (1.7ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/actionpack-4.2.3/lib/action_dispatch/middleware/templates/rescues/diagnostics.html.erb within rescues/layout (147.8ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/_markup.html.erb (0.4ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/_inner_console_markup.html.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/_prompt_box_markup.html.erb within layouts/inlined_string (0.3ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/style.css.erb within layouts/inlined_string (0.4ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/console.js.erb within layouts/javascript (229.1ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/main.js.erb within layouts/javascript (0.3ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/error_page.js.erb within layouts/javascript (0.5ms)
+  Rendered /home/ip-d/.rvm/gems/ruby-2.1.5/gems/web-console-2.2.1/lib/web_console/templates/index.html.erb (386.7ms)
+
+
+Started GET "/demo" for 127.0.0.1 at 2015-10-27 09:38:19 +0530
+Processing by PageController#demo as HTML
+  Rendered page/demo.html.erb within layouts/application (407.2ms)
+  [1m[36m (144.3ms)[0m  [1mSELECT COUNT(*) FROM `currencies`[0m
+  [1m[35mCurrency Load (0.3ms)[0m  SELECT `currencies`.* FROM `currencies`
+  Rendered layouts/_currency.html.erb (148.0ms)
+  Rendered layouts/_header.html.erb (240.1ms)
+  Rendered layouts/_messages.html.erb (0.7ms)
+  Rendered layouts/_footer.html.erb (17.6ms)
+Completed 200 OK in 2293ms (Views: 2147.7ms | ActiveRecord: 144.6ms)
+
+
+Started GET "/demo" for 127.0.0.1 at 2015-10-27 09:38:22 +0530
+Processing by PageController#demo as HTML
+  Rendered page/demo.html.erb within layouts/application (61.7ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM `currencies`[0m
+  [1m[35mCurrency Load (0.1ms)[0m  SELECT `currencies`.* FROM `currencies`
+  Rendered layouts/_currency.html.erb (2.3ms)
+  Rendered layouts/_header.html.erb (9.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (18.5ms)
+Completed 200 OK in 404ms (Views: 403.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/assets/body_bg.png" for 127.0.0.1 at 2015-10-27 09:38:24 +0530
+
+
+Started GET "/assets/search.png" for 127.0.0.1 at 2015-10-27 09:38:24 +0530
+
+
+Started GET "/store" for 127.0.0.1 at 2015-10-27 09:38:27 +0530
+Processing by PageController#store as HTML
+  Rendered page/store.html.erb within layouts/application (708.9ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `currencies`[0m
+  [1m[35mCurrency Load (0.1ms)[0m  SELECT `currencies`.* FROM `currencies`
+  Rendered layouts/_currency.html.erb (2.2ms)
+  Rendered layouts/_header.html.erb (8.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (16.4ms)
+Completed 200 OK in 1080ms (Views: 1078.7ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/make" for 127.0.0.1 at 2015-10-27 09:38:30 +0530
+Processing by PageController#make as HTML
+  Rendered page/make.html.erb within layouts/application (590.6ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM `currencies`[0m
+  [1m[35mCurrency Load (0.1ms)[0m  SELECT `currencies`.* FROM `currencies`
+  Rendered layouts/_currency.html.erb (2.1ms)
+  Rendered layouts/_make_header.html.erb (6.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+Completed 200 OK in 1038ms (Views: 1036.8ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/demo" for 127.0.0.1 at 2015-10-27 09:38:34 +0530
+Processing by PageController#demo as HTML
+  Rendered page/demo.html.erb within layouts/application (57.7ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM `currencies`[0m
+  [1m[35mCurrency Load (0.1ms)[0m  SELECT `currencies`.* FROM `currencies`
+  Rendered layouts/_currency.html.erb (2.8ms)
+  Rendered layouts/_header.html.erb (9.6ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (18.6ms)
+Completed 200 OK in 384ms (Views: 383.4ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/demo" for 127.0.0.1 at 2015-10-27 09:38:42 +0530
+Processing by PageController#demo as HTML
+  Rendered page/demo.html.erb within layouts/application (59.0ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `currencies`[0m
+  [1m[35mCurrency Load (0.1ms)[0m  SELECT `currencies`.* FROM `currencies`
+  Rendered layouts/_currency.html.erb (2.3ms)
+  Rendered layouts/_header.html.erb (8.9ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (17.7ms)
+Completed 200 OK in 381ms (Views: 380.1ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/demo" for 127.0.0.1 at 2015-10-27 09:39:29 +0530
+Processing by PageController#demo as HTML
+  Rendered page/demo.html.erb within layouts/application (61.3ms)
+  [1m[36m (0.2ms)[0m  [1mSELECT COUNT(*) FROM `currencies`[0m
+  [1m[35mCurrency Load (0.2ms)[0m  SELECT `currencies`.* FROM `currencies`
+  Rendered layouts/_currency.html.erb (2.9ms)
+  Rendered layouts/_header.html.erb (9.5ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (17.1ms)
+Completed 200 OK in 559ms (Views: 557.6ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/application.self-871dfc76e8c2d8b411bc711a61d38843944911f979a25485b30123de51dd899a.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/page.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/foundation_and_overrides.self-3711dad253684e98d44c9b4e34e6975491994fed623b8b4118bee2c514bc1354.css?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/responsive.self-f031ae3b959e86e11686f9593121f23a3f24ea3ce4135e14d364892e3941ac37.css?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/shipping.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/style.self-4f99b3df3e6aa85afd85a197a3a8d243068272f0e6915a04c5607d7984926909.css?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/application.self-f78feb67e8049abf326e5f19e9ab2ba7f61b9f1fb25454cd35f52b7a3ef8936a.css?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/font-awesome.self-be09f9a5a5e8fd15a4e4d68dc8509252a33dc056003e53159586cf99368ba0e7.css?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/slick.self-bda8f9d95b879cc07b5d65bae0da7172c12fb2f443241a1957690e3b0568b2fc.css?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/slick-theme.self-3968490230827f6d907915bcf120df3018396a13b8271b6005fead14866e7d3b.css?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/slick.self-6e16c0ddbfaf61f8e2427ff9caf16b7c1aba8e8232fdc216d3d966496573317e.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/jquery-hover-effect.self-00776f79d3af2ad47874a804dea0bb77141dcdb0781e362a36b3f49d6db2f18b.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/Xskin-logo-a9941772dbaa1e1e2e724ae01a4130693e67a29991a248aea3c6a93acb6ec65d.png" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/iPhone6-front-a68d6e28a21be4cbb4c59acc4866a13dea9ea0e8efc0cc9106755cfd31b1ef91.jpg" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/zoom-f10e953e5a8e958d01130b29f41008a06dcfbb3dddac73ef608d6ad45ea431f8.png" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/add-to-cart-2e61c2a1c1a143ff5cd9aca6d8b4986d57648fb7b448d9ba51e2ab59c2caea63.png" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/iPhone6-back-0bb3af0d5861500bb4061c7a3c51c556918bd4cad40ab436c7a3edce0295cc82.jpg" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/iphone-background-b75b4116c048e06854d37e80acc1c6cc6c21b46c74752d5a16e8aa8c495d0691.jpg" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/girl-using-iphone-32efb70d5b555377b3b1dbc5c1c77fe2146a29aacbdec9e9bbb0eb096d316c0a.jpg" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/mans-using-iphone-8c988088b8882bc0a4e0c0b3088d3d982564d85625491e5448a06e11e7ee1180.jpg" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/iphone-background-3-8e824a3f1bd0c6f059fa6bd0b2593c0af761d77bfbb69169e3c4d642fb1f19ec.jpg" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/iphone-background-1-0573cb4280755dbfc86812d0ebaf9c96585113400dd6d40818f578fbac516c35.jpg" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/iphone-background-2-e2c735dcb3d14c3926cd216dd594c725083e4833e26c0875c1e52a989ed0ea82.jpg" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/close-b75008c703dee56d4354cea598245245a187ba174948da1e6b0d646e4104cb7c.png" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/app-store-daf913a9de3e2d513fd1868e57ae4dfe0a7c473ceb0487f508fe8a20ee847794.png" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/google-play-store-acedb8b131ac38b5eafef90763528382a389499201fcebcaf1bdf1994e2fcb85.png" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/assets/vimeo-65f1186e62b58b791a5e7fd4d430b518ac123f802faaaaaba4a9a3ddffb282b2.png" for 127.0.0.1 at 2015-10-27 09:39:30 +0530
+
+
+Started GET "/demo" for 127.0.0.1 at 2015-10-27 09:39:51 +0530
+Processing by PageController#demo as HTML
+  Rendered page/demo.html.erb within layouts/application (66.5ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `currencies`[0m
+  [1m[35mCurrency Load (0.1ms)[0m  SELECT `currencies`.* FROM `currencies`
+  Rendered layouts/_currency.html.erb (2.4ms)
+  Rendered layouts/_header.html.erb (11.2ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (16.9ms)
+Completed 200 OK in 554ms (Views: 553.5ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/page.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-10-27 09:39:52 +0530
+
+
+Started GET "/assets/application.self-f78feb67e8049abf326e5f19e9ab2ba7f61b9f1fb25454cd35f52b7a3ef8936a.css?body=1" for 127.0.0.1 at 2015-10-27 09:39:52 +0530
+
+
+Started GET "/assets/foundation_and_overrides.self-3711dad253684e98d44c9b4e34e6975491994fed623b8b4118bee2c514bc1354.css?body=1" for 127.0.0.1 at 2015-10-27 09:39:52 +0530
+
+
+Started GET "/assets/responsive.self-f031ae3b959e86e11686f9593121f23a3f24ea3ce4135e14d364892e3941ac37.css?body=1" for 127.0.0.1 at 2015-10-27 09:39:52 +0530
+
+
+Started GET "/assets/style.self-4f99b3df3e6aa85afd85a197a3a8d243068272f0e6915a04c5607d7984926909.css?body=1" for 127.0.0.1 at 2015-10-27 09:39:52 +0530
+
+
+Started GET "/assets/shipping.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-10-27 09:39:52 +0530
+
+
+Started GET "/assets/font-awesome.self-be09f9a5a5e8fd15a4e4d68dc8509252a33dc056003e53159586cf99368ba0e7.css?body=1" for 127.0.0.1 at 2015-10-27 09:39:52 +0530
+
+
+Started GET "/assets/slick.self-bda8f9d95b879cc07b5d65bae0da7172c12fb2f443241a1957690e3b0568b2fc.css?body=1" for 127.0.0.1 at 2015-10-27 09:39:52 +0530
+
+
+Started GET "/assets/slick-theme.self-3968490230827f6d907915bcf120df3018396a13b8271b6005fead14866e7d3b.css?body=1" for 127.0.0.1 at 2015-10-27 09:39:52 +0530
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:52 +0530
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:52 +0530
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:52 +0530
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:52 +0530
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:52 +0530
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:52 +0530
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:52 +0530
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:52 +0530
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:52 +0530
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:52 +0530
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/slick.self-6e16c0ddbfaf61f8e2427ff9caf16b7c1aba8e8232fdc216d3d966496573317e.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/jquery-hover-effect.self-00776f79d3af2ad47874a804dea0bb77141dcdb0781e362a36b3f49d6db2f18b.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/application.self-c48f3a8ae67e3bf09d008468fbe36190951adc4e46459dfe45841579460b7570.js?body=1" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/Xskin-logo-a9941772dbaa1e1e2e724ae01a4130693e67a29991a248aea3c6a93acb6ec65d.png" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/iPhone6-front-a68d6e28a21be4cbb4c59acc4866a13dea9ea0e8efc0cc9106755cfd31b1ef91.jpg" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/zoom-f10e953e5a8e958d01130b29f41008a06dcfbb3dddac73ef608d6ad45ea431f8.png" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/add-to-cart-2e61c2a1c1a143ff5cd9aca6d8b4986d57648fb7b448d9ba51e2ab59c2caea63.png" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/iPhone6-back-0bb3af0d5861500bb4061c7a3c51c556918bd4cad40ab436c7a3edce0295cc82.jpg" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/iphone-background-3-8e824a3f1bd0c6f059fa6bd0b2593c0af761d77bfbb69169e3c4d642fb1f19ec.jpg" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/girl-using-iphone-32efb70d5b555377b3b1dbc5c1c77fe2146a29aacbdec9e9bbb0eb096d316c0a.jpg" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/mans-using-iphone-8c988088b8882bc0a4e0c0b3088d3d982564d85625491e5448a06e11e7ee1180.jpg" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/iphone-background-b75b4116c048e06854d37e80acc1c6cc6c21b46c74752d5a16e8aa8c495d0691.jpg" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/iphone-background-1-0573cb4280755dbfc86812d0ebaf9c96585113400dd6d40818f578fbac516c35.jpg" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/close-b75008c703dee56d4354cea598245245a187ba174948da1e6b0d646e4104cb7c.png" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/iphone-background-2-e2c735dcb3d14c3926cd216dd594c725083e4833e26c0875c1e52a989ed0ea82.jpg" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/google-play-store-acedb8b131ac38b5eafef90763528382a389499201fcebcaf1bdf1994e2fcb85.png" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/app-store-daf913a9de3e2d513fd1868e57ae4dfe0a7c473ceb0487f508fe8a20ee847794.png" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/vimeo-65f1186e62b58b791a5e7fd4d430b518ac123f802faaaaaba4a9a3ddffb282b2.png" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/assets/ajax-loader-e7b44c86b050fca766a96ddac2d0932af0126da6f2305280342d909168dcce6b.gif" for 127.0.0.1 at 2015-10-27 09:39:53 +0530
+
+
+Started GET "/demo" for 127.0.0.1 at 2015-10-27 10:00:16 +0530
+Processing by PageController#demo as HTML
+  Rendered page/demo.html.erb within layouts/application (57.2ms)
+  [1m[36m (0.3ms)[0m  [1mSELECT COUNT(*) FROM `currencies`[0m
+  [1m[35mCurrency Load (0.1ms)[0m  SELECT `currencies`.* FROM `currencies`
+  Rendered layouts/_currency.html.erb (2.2ms)
+  Rendered layouts/_header.html.erb (9.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (23.5ms)
+Completed 200 OK in 465ms (Views: 463.3ms | ActiveRecord: 0.4ms)
+
+
+Started GET "/assets/page.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-10-27 10:00:17 +0530
+
+
+Started GET "/assets/responsive.self-f031ae3b959e86e11686f9593121f23a3f24ea3ce4135e14d364892e3941ac37.css?body=1" for 127.0.0.1 at 2015-10-27 10:00:17 +0530
+
+
+Started GET "/assets/application.self-f78feb67e8049abf326e5f19e9ab2ba7f61b9f1fb25454cd35f52b7a3ef8936a.css?body=1" for 127.0.0.1 at 2015-10-27 10:00:17 +0530
+
+
+Started GET "/assets/shipping.self-e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855.css?body=1" for 127.0.0.1 at 2015-10-27 10:00:17 +0530
+
+
+Started GET "/assets/foundation_and_overrides.self-3711dad253684e98d44c9b4e34e6975491994fed623b8b4118bee2c514bc1354.css?body=1" for 127.0.0.1 at 2015-10-27 10:00:17 +0530
+
+
+Started GET "/assets/font-awesome.self-be09f9a5a5e8fd15a4e4d68dc8509252a33dc056003e53159586cf99368ba0e7.css?body=1" for 127.0.0.1 at 2015-10-27 10:00:17 +0530
+
+
+Started GET "/assets/style.self-4f99b3df3e6aa85afd85a197a3a8d243068272f0e6915a04c5607d7984926909.css?body=1" for 127.0.0.1 at 2015-10-27 10:00:17 +0530
+
+
+Started GET "/assets/slick.self-bda8f9d95b879cc07b5d65bae0da7172c12fb2f443241a1957690e3b0568b2fc.css?body=1" for 127.0.0.1 at 2015-10-27 10:00:17 +0530
+
+
+Started GET "/assets/slick-theme.self-3968490230827f6d907915bcf120df3018396a13b8271b6005fead14866e7d3b.css?body=1" for 127.0.0.1 at 2015-10-27 10:00:17 +0530
+
+
+Started GET "/assets/vendor/modernizr.self-74da3245def7569da28115667be6a85a2ad97464abe707c9829c46d8975597bc.js?body=1" for 127.0.0.1 at 2015-10-27 10:00:17 +0530
+
+
+Started GET "/assets/jquery.self-a714331225dda820228db323939889f149aec0127aeb06255646b616ba1ca419.js?body=1" for 127.0.0.1 at 2015-10-27 10:00:17 +0530
+
+
+Started GET "/assets/jquery_ujs.self-d456baa54c1fa6be2ec3711f0a72ddf7a5b2f34a6b4f515f33767d6207b7d4b3.js?body=1" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/foundation/foundation.self-ee5396739ce46beb039f26ea629172a74143752d74f703c6c3b219fc52aecf73.js?body=1" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/foundation/foundation.abide.self-f8b56c707a79139807305a5f7efc2aaa0848f0c677abcc056496f507e0192b79.js?body=1" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/foundation/foundation.accordion.self-d55abdcb0a7a29512be2f31f63d418cc8cc4505a0a3c71946d25484b0a0b3f4e.js?body=1" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/foundation/foundation.alert.self-fbde7afb61e8ffd8ab9b717f0bed1e58cb9e0144a25cc773fea634d5554f62cd.js?body=1" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/foundation/foundation.clearing.self-54610737b435a97590fcb176848c3c7a44c4d55d369894260fa7c28c97a70a23.js?body=1" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/foundation/foundation.dropdown.self-c9ee29909e266373e5e814a73fc6ea062245ddd29466d35d232448f73350d78a.js?body=1" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/foundation/foundation.equalizer.self-7aa743bf4660deb2fb2f601c112806a1703c430067531da3f41e4afffe19fee9.js?body=1" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/foundation/foundation.interchange.self-dad8415355087cb21a16fa44bac20d602344d52de5aca9e588e3588fce5dd5a7.js?body=1" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/foundation/foundation.joyride.self-0a5271728699423f583dd5b3b8a11bfe0dc9fb5044446bcf3218ef8ca906a82d.js?body=1" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/foundation/foundation.magellan.self-a50193f172f11e57b373c3001072ba2d6b34b857ab251e9ded30af5242855687.js?body=1" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/foundation/foundation.offcanvas.self-75bffd0c7f4f0d2992ab95f0cc6959282ebb5807da70123d40c01d76e230ec88.js?body=1" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/foundation/foundation.orbit.self-f8d30eb1717c874db26723f9e07901ec0a325d59263f1404ee83a616bb597ad2.js?body=1" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/foundation/foundation.reveal.self-95f01feb3e25e47b58b78da0021ae2fffafdee70846682067c180e0e10f7b095.js?body=1" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/foundation/foundation.slider.self-8911a7352cb577b6b7973b0734d57d2b624c79286558ffa36fcac0c29b2d0bee.js?body=1" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/foundation/foundation.tab.self-9bf6791513d1b20e213bb1aee3df0bc17128c7e18421258dc68a2a4ccabe1647.js?body=1" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/foundation/foundation.tooltip.self-834156796c253580629cfffc720bdc3d191b1e5a5a6ddbc1102ecd08c876516c.js?body=1" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/foundation/foundation.topbar.self-105416f061562f07c6a0a8057d68282fdc1eeb5dc306713fcae6c9a53001fc55.js?body=1" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/turbolinks.self-c37727e9bd6b2735da5c311aa83fead54ed0be6cc8bd9a65309e9c5abe2cbfff.js?body=1" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/foundation.self-abe4ee7a105042f73b12b1f1a28788522d2f253445a475a94ab4d6e1f7b0ec52.js?body=1" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/slick.self-6e16c0ddbfaf61f8e2427ff9caf16b7c1aba8e8232fdc216d3d966496573317e.js?body=1" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/jquery-hover-effect.self-00776f79d3af2ad47874a804dea0bb77141dcdb0781e362a36b3f49d6db2f18b.js?body=1" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/page.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/shipping.self-877aef30ae1b040ab8a3aba4e3e309a11d7f2612f44dde450b5c157aa5f95c05.js?body=1" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/application.self-c48f3a8ae67e3bf09d008468fbe36190951adc4e46459dfe45841579460b7570.js?body=1" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/fontawesome-webfont-3c4a1bb7ce3234407184f0d80cc4dec075e4ad616b44dcc5778e1cfb1bc24019.woff2?v=4.4.0" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/body_bg.png" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/search.png" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/Xskin-logo-a9941772dbaa1e1e2e724ae01a4130693e67a29991a248aea3c6a93acb6ec65d.png" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/iPhone6-front-a68d6e28a21be4cbb4c59acc4866a13dea9ea0e8efc0cc9106755cfd31b1ef91.jpg" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/zoom-f10e953e5a8e958d01130b29f41008a06dcfbb3dddac73ef608d6ad45ea431f8.png" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/add-to-cart-2e61c2a1c1a143ff5cd9aca6d8b4986d57648fb7b448d9ba51e2ab59c2caea63.png" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/iPhone6-back-0bb3af0d5861500bb4061c7a3c51c556918bd4cad40ab436c7a3edce0295cc82.jpg" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/girl-using-iphone-32efb70d5b555377b3b1dbc5c1c77fe2146a29aacbdec9e9bbb0eb096d316c0a.jpg" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/iphone-background-b75b4116c048e06854d37e80acc1c6cc6c21b46c74752d5a16e8aa8c495d0691.jpg" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/slick-26726bac4060abb1226e6ceebc1336e84930fe7a7af1b3895a109d067f5b5dcc.woff" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/ajax-loader-e7b44c86b050fca766a96ddac2d0932af0126da6f2305280342d909168dcce6b.gif" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/mans-using-iphone-8c988088b8882bc0a4e0c0b3088d3d982564d85625491e5448a06e11e7ee1180.jpg" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/google-play-store-acedb8b131ac38b5eafef90763528382a389499201fcebcaf1bdf1994e2fcb85.png" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/vimeo-65f1186e62b58b791a5e7fd4d430b518ac123f802faaaaaba4a9a3ddffb282b2.png" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/app-store-daf913a9de3e2d513fd1868e57ae4dfe0a7c473ceb0487f508fe8a20ee847794.png" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/iphone-background-3-8e824a3f1bd0c6f059fa6bd0b2593c0af761d77bfbb69169e3c4d642fb1f19ec.jpg" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/close-b75008c703dee56d4354cea598245245a187ba174948da1e6b0d646e4104cb7c.png" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/iphone-background-1-0573cb4280755dbfc86812d0ebaf9c96585113400dd6d40818f578fbac516c35.jpg" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/iphone-background-2-e2c735dcb3d14c3926cd216dd594c725083e4833e26c0875c1e52a989ed0ea82.jpg" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/assets/favicon-7bfd1ce12d3c10e9284a016379e59b063ad8bbf2b7041486e6c5b269dc86ffc9.png" for 127.0.0.1 at 2015-10-27 10:00:18 +0530
+
+
+Started GET "/spotting" for 127.0.0.1 at 2015-10-27 10:01:23 +0530
+Processing by PageController#spotting as HTML
+  Rendered page/spotting.html.erb within layouts/application (77.4ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM `currencies`[0m
+  [1m[35mCurrency Load (0.1ms)[0m  SELECT `currencies`.* FROM `currencies`
+  Rendered layouts/_currency.html.erb (2.2ms)
+  Rendered layouts/_header.html.erb (9.7ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (17.2ms)
+Completed 200 OK in 416ms (Views: 414.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/spotting" for 127.0.0.1 at 2015-10-27 10:02:52 +0530
+Processing by PageController#spotting as HTML
+  Rendered page/spotting.html.erb within layouts/application (44.3ms)
+  [1m[36m (0.1ms)[0m  [1mSELECT COUNT(*) FROM `currencies`[0m
+  [1m[35mCurrency Load (0.1ms)[0m  SELECT `currencies`.* FROM `currencies`
+  Rendered layouts/_currency.html.erb (3.9ms)
+  Rendered layouts/_header.html.erb (10.4ms)
+  Rendered layouts/_messages.html.erb (0.1ms)
+  Rendered layouts/_footer.html.erb (16.0ms)
+Completed 200 OK in 371ms (Views: 369.9ms | ActiveRecord: 0.2ms)
