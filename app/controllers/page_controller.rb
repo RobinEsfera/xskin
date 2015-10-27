@@ -4,7 +4,7 @@ class PageController < ApplicationController
 
 	end
 	def demo
-		
+	  @arrHomeSliders = HomeSlider.all
 	end
 
 	def store

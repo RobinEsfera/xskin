@@ -43,81 +43,31 @@
 
         <!-- slider start from here -->
         <div class="medium-6 columns">
-
         <div class="slide-start">
+        <% if @arrHomeSliders.any? %>
+        <% @arrHomeSliders.each do |arrHomeSliders| %>
           <div class="xskin-slider">
             <div class="xskin-slide">
-              <%=image_tag"iphone-background.jpg",:class=>"xskin-slide-back-img" %>
+              <%=image_tag arrHomeSliders.image.url(:medium),:class=>"xskin-slide-back-img" %>
             </div>
 
             <div class="xskin-slide-caption">
               <div class="caption">
                 <div class="make-your-own-skin">
                   <div class="slide-cap">
-                    <h2>make your own</h2>
-                    <h1>skin</h1>
-                    <a href="#" class="button">Learn More</a>
+                    <h2><%= arrHomeSliders.title %></h2>
+                    <h1><%= arrHomeSliders.subtitle %></h1>
+                    <% if arrHomeSliders.link.present? %>
+                      <%= link_to "Learn More", "#{request.protocol}#{request.host_with_port}/#{arrHomeSliders.link}", class: :button %>
+                    <% end %>
                   </div>
                 </div>
               </div>
             </div>
             <!-- slide caption close from here -->
           </div>
-
-          <div class="xskin-slider">
-            <div class="xskin-slide">
-              <%=image_tag"iphone-background-1.jpg",:class=>"xskin-slide-back-img" %>
-            </div>
-
-            <div class="xskin-slide-caption">
-              <div class="caption">
-                <div class="make-your-own-skin">
-                  <div class="slide-cap">
-                    <h2>make your own</h2>
-                    <h1>skin</h1>
-                    <a href="#" class="button">Learn More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- slide caption close from here -->
-          </div>
-          <div class="xskin-slider">
-            <div class="xskin-slide">
-              <%=image_tag"iphone-background-2.jpg",:class=>"xskin-slide-back-img" %>
-            </div>
-
-            <div class="xskin-slide-caption">
-              <div class="caption">
-                <div class="make-your-own-skin">
-                  <div class="slide-cap">
-                    <h2>make your own</h2>
-                    <h1>skin</h1>
-                    <a href="#" class="button">Learn More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- slide caption close from here -->
-          </div>
-          <div class="xskin-slider">
-            <div class="xskin-slide">
-              <%=image_tag"iphone-background-3.jpg",:class=>"xskin-slide-back-img" %>
-            </div>
-
-            <div class="xskin-slide-caption">
-              <div class="caption">
-                <div class="make-your-own-skin">
-                  <div class="slide-cap">
-                    <h2>make your own</h2>
-                    <h1>skin</h1>
-                    <a href="#" class="button">Learn More</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <!-- slide caption close from here -->
-          </div>
+          <% end %>
+          <% end %>
 
           </div>
 

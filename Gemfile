@@ -3,6 +3,8 @@ source 'https://rubygems.org'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
 gem 'rails', '4.2.3'
+gem 'carrierwave'
+gem 'mini_magick'
 # Use mysql as the database for Active Record
 gem 'mysql2', '~> 0.3.18'
 # Use SCSS for stylesheets
